@@ -27,89 +27,89 @@
 
     <texts>
         <!-- Inputs (FS25) -->
-        <text name="input_EDC_SUPER_STRENGTH" text="Toggle super strength" revision="fs25"/>
+        <text name="input_EDC_SUPER_STRENGTH" text="Przełączanie trybu Pudziana" revision="fs25"/>
 
         <!-- First Load Info (FS25) -->
-        <text name="easyDevControls_firstLoadInfo" text="Don't know how to do something?
-Check the Help section in the Easy Development Controls menu.
+        <text name="easyDevControls_firstLoadInfo" text="Nie wiesz jak coś zrobić?
+Sprawdź sekcję Pomoc w menu Easy Development Controls.
 
-All input bindings can be configured via the In-Game menu controls screen." revision="fs25"/>
+Wszystkie skróty klawiszowe można skonfigurować za pomocą menu klawiszy w opcjach gry." revision="fs25"/>
 
         <!-- Misc (FS25) -->
-        <text name="easyDevControls_resetPageSuccess" text="Page commands have been reset..." revision="fs25"/>
+        <text name="easyDevControls_resetPageSuccess" text="Strona komend została zresetowana..." revision="fs25"/>
         <text name="easyDevControls_squareMeterShort" text="m²" revision="fs25"/>
-        <text name="easyDevControls_typeTree" text="tree" revision="fs25"/>
-        <text name="easyDevControls_typeTrees" text="trees" revision="fs25"/>
-        <text name="easyDevControls_placeholderEnterAmount" text="Enter Amount" revision="fs25"/>
-        <text name="easyDevControls_placeholderEnterCoordinates" text="Enter Coordinates" revision="fs25"/>
-        <text name="easyDevControls_decoration" text="Decoration" revision="fs25"/>
-        <text name="easyDevControls_dense" text="Dense" revision="fs25"/>
-        <text name="easyDevControls_ridgeSown" text="Ridge Sown" revision="fs25"/>
-        <text name="easyDevControls_currentValue" text="Current: %s" revision="fs25"/>
-        <text name="easyDevControls_noTrigger" text="No Trigger" revision="fs25"/>
-        <text name="easyDevControls_verbose" text="Verbose" revision="fs25"/>
-        <text name="easyDevControls_blocked" text="Blocked" revision="fs25"/>
-        <text name="easyDevControls_weatherTypePartiallyCloudy" text="Partially Cloudy" revision="fs25"/>
-        <text name="easyDevControls_weatherTypeHail" text="Hail" revision="fs25"/>
-        <text name="easyDevControls_weatherTypeTwister" text="Twister" revision="fs25"/>
-        <text name="easyDevControls_weatherTypeThunder" text="Thunder" revision="fs25"/>
+        <text name="easyDevControls_typeTree" text="drzewo" revision="fs25"/>
+        <text name="easyDevControls_typeTrees" text="drzewa" revision="fs25"/>
+        <text name="easyDevControls_placeholderEnterAmount" text="Wpisz wartość" revision="fs25"/>
+        <text name="easyDevControls_placeholderEnterCoordinates" text="Wpisz współrzędne" revision="fs25"/>
+        <text name="easyDevControls_decoration" text="Dekoracje" revision="fs25"/>
+        <text name="easyDevControls_dense" text="Gęste" revision="fs25"/>
+        <text name="easyDevControls_ridgeSown" text="Redliny" revision="fs25"/>
+        <text name="easyDevControls_currentValue" text="Obecnie: %s" revision="fs25"/>
+        <text name="easyDevControls_noTrigger" text="Brak triggera" revision="fs25"/>
+        <text name="easyDevControls_verbose" text="Szczegółowy" revision="fs25"/>
+        <text name="easyDevControls_blocked" text="Zablokowany" revision="fs25"/>
+        <text name="easyDevControls_weatherTypePartiallyCloudy" text="Częściowo pochmurno" revision="fs25"/>
+        <text name="easyDevControls_weatherTypeHail" text="Grad" revision="fs25"/>
+        <text name="easyDevControls_weatherTypeTwister" text="Tornado" revision="fs25"/>
+        <text name="easyDevControls_weatherTypeThunder" text="Burza" revision="fs25"/>
 
         <!-- General Frame (FS25) -->
-        <text name="easyDevControls_setFovCurrentAngleInfo" text="Current: %d°" revision="fs25"/>
+        <text name="easyDevControls_setFovCurrentAngleInfo" text="Obecnie: %d°" revision="fs25"/>
 
         <!-- Player Frame (FS25) -->
-        <text name="easyDevControls_superStrengthKeyTitle" text="Super Strength Input" revision="fs25"/>
-        <text name="easyDevControls_superStrengthKeyInfo" text="Super Strength input (%s) %s" revision="fs25"/>
-        <text name="easyDevControls_superStrengthKeyHelp" text="Enables / Disables the Super Strength input binding." revision="fs25"/>
-        <text name="easyDevControls_jumpDelayTitle" text="Jump Delay" revision="fs25"/>
-        <text name="easyDevControls_jumpDelayInfo" text="Jump delay state: %s" revision="fs25"/>
-        <text name="easyDevControls_jumpDelayHelp" text="Sets player jump delay in seconds." revision="fs25"/>
-        <text name="easyDevControls_noClipTitle" text="No Clip" revision="fs25"/>
-        <text name="easyDevControls_noClipHelp" text="Disables player collisions." revision="fs25"/>
-        <text name="easyDevControls_playerDebugInitialisationTitle" text="Debug Initialisation" revision="fs25"/>
-        <text name="easyDevControls_playerDebugHandToolsTitle" text="Debug Hand Tools" revision="fs25"/>
-        <text name="easyDevControls_playerDebugNetworkTitle" text="Debug Network" revision="fs25"/>
-        <text name="easyDevControls_playerDebugGraphicsTitle" text="Debug Graphics" revision="fs25"/>
-        <text name="easyDevControls_playerDebugStateTitle" text="Debug State" revision="fs25"/>
-        <text name="easyDevControls_playerDebugMovementTitle" text="Debug Movement" revision="fs25"/>
-        <text name="easyDevControls_playerDebugInputTitle" text="Debug Input" revision="fs25"/>
-        <text name="easyDevControls_playerDebugDisplayInfo" text="Player debug flag %s is now %s." revision="fs25"/>
-        <text name="easyDevControls_playerDebugDisplayHelp" text="Enables / Disables the %s debug flag." revision="fs25"/>
+        <text name="easyDevControls_superStrengthKeyTitle" text="Klawisz trybu Pudziana" revision="fs25"/>
+        <text name="easyDevControls_superStrengthKeyInfo" text="Klawisz trybu Pudziana (%s) %s" revision="fs25"/>
+        <text name="easyDevControls_superStrengthKeyHelp" text="Włącza/wyłącza skrót dla trybu Pudziana." revision="fs25"/>
+        <text name="easyDevControls_jumpDelayTitle" text="Opóźnienie skoku" revision="fs25"/>
+        <text name="easyDevControls_jumpDelayInfo" text="Stan opóźnienia skoku: %s" revision="fs25"/>
+        <text name="easyDevControls_jumpDelayHelp" text="Ustawia opóźnienie skoku gracza w sekundach.." revision="fs25"/>
+        <text name="easyDevControls_noClipTitle" text="Bez kolizji" revision="fs25"/>
+        <text name="easyDevControls_noClipHelp" text="Wyłącza kolizję gracza." revision="fs25"/>
+        <text name="easyDevControls_playerDebugInitialisationTitle" text="Debugowania inicjalizacji" revision="fs25"/>
+        <text name="easyDevControls_playerDebugHandToolsTitle" text="Debugowanie narzędzi ręcznych" revision="fs25"/>
+        <text name="easyDevControls_playerDebugNetworkTitle" text="Debugowanie sieci" revision="fs25"/>
+        <text name="easyDevControls_playerDebugGraphicsTitle" text="Debugowanie grafiki" revision="fs25"/>
+        <text name="easyDevControls_playerDebugStateTitle" text="Debugowanie stanu" revision="fs25"/>
+        <text name="easyDevControls_playerDebugMovementTitle" text="Debugowanie ruchu gracza" revision="fs25"/>
+        <text name="easyDevControls_playerDebugInputTitle" text="Debugowanie przycisków/klawiszy" revision="fs25"/>
+        <text name="easyDevControls_playerDebugDisplayInfo" text="Flaga debugowania %s ustawiona na %s." revision="fs25"/>
+        <text name="easyDevControls_playerDebugDisplayHelp" text="Włącza/wyłącza flagę debugowania %s." revision="fs25"/>
 
         <!-- Objects Frame (FS25) -->
-        <text name="easyDevControls_numObjectsHelp" text="Displays the number of %s on the map and any limits when applicable." revision="fs25"/>
-        <text name="easyDevControls_plantTreeTitle" text="Plant Tree" revision="fs25"/>
-        <text name="easyDevControls_plantTreeInfo" text="Tree has been planted." revision="fs25"/>
-        <text name="easyDevControls_plantTreeHelp" text="Plants the selected tree type in front of the player.  Warning: No collision checks are executed, make sure the area in front of the player is clear!" revision="fs25"/>
-        <text name="easyDevControls_growthStage" text="Growth Stage %d" revision="fs25"/>
-        <text name="easyDevControls_splitShapesTitle" text="Split Shapes" revision="fs25"/>
-        <text name="easyDevControls_removeAllSplitShapesTitle" text="Remove Split Shapes" revision="fs25"/>
-        <text name="easyDevControls_showCollisionsInfo" text="Enable debug view (F5) to render collision information." revision="fs25"/>
+        <text name="easyDevControls_numObjectsHelp" text="Wyświetla liczbę %s na mapie i wszelkie ograniczenia, jeśli mają zastosowanie." revision="fs25"/>
+        <text name="easyDevControls_plantTreeTitle" text="Sadzenie drzew" revision="fs25"/>
+        <text name="easyDevControls_plantTreeInfo" text="Drzewo zostało posadzone." revision="fs25"/>
+        <text name="easyDevControls_plantTreeHelp" text="Sadzi wybrany typ drzewa przed graczem. Ostrzeżenie: Brak sprawdzania kolizji, upewnij się, że obszar przed graczem jest pusty!" revision="fs25"/>
+        <text name="easyDevControls_growthStage" text="Etap wzrostu %d" revision="fs25"/>
+        <text name="easyDevControls_splitShapesTitle" text="Pocięte drzewa" revision="fs25"/>
+        <text name="easyDevControls_removeAllSplitShapesTitle" text="Usuń pocięte drzewa" revision="fs25"/>
+        <text name="easyDevControls_showCollisionsInfo" text="Włącz widok debugowania (F5), aby renderować informacje o kolizji." revision="fs25"/>
 
         <!-- Vehicles Frame (FS25) -->
-        <text name="easyDevControls_vehicleWetness" text="Wetness" revision="fs25"/>
+        <text name="easyDevControls_vehicleWetness" text="Wilgotność" revision="fs25"/>
 
         <!-- Placeables Frame (FS25) -->
-        <text name="easyDevControls_tipToTriggerSuccess" text="Tipped %s to trigger." revision="fs25"/>
+        <text name="easyDevControls_tipToTriggerSuccess" text="Wykiprowano %s do triggera." revision="fs25"/>
 
         <!-- Farmlands Frame (FS25) -->
-        <text name="easyDevControls_clearHeightTypesTitle" text="Clear Height Types" revision="fs25"/>
-        <text name="easyDevControls_setRiceFieldTitle" text="Set Rice Field" revision="fs25"/>
-        <text name="easyDevControls_setRiceFieldHelp" text="Allows the following changes to be made to the rice field in range." revision="fs25"/>
+        <text name="easyDevControls_clearHeightTypesTitle" text="Wyczyść typy wysokości" revision="fs25"/>
+        <text name="easyDevControls_setRiceFieldTitle" text="Ustaw ryż na polu" revision="fs25"/>
+        <text name="easyDevControls_setRiceFieldHelp" text="Umożliwia zmianę ustawień na polu ryżowym w zasięgu." revision="fs25"/>
 
         <!-- Environment Frame (FS25) -->
-        <text name="easyDevControls_tireTrackDebugTitle" text="Tyre Track Debug" revision="fs25"/>
-        <text name="easyDevControls_tireTrackDebugHelp" text="Enables / Disables the tyre track debug mode with permanently active and coloured tracks." revision="fs25"/>
+        <text name="easyDevControls_tireTrackDebugTitle" text="Debugowanie śladów opon" revision="fs25"/>
+        <text name="easyDevControls_tireTrackDebugHelp" text="Włącza/wyłącza tryb debugowania śladów opon ze stale aktywnymi i kolorowymi śladami." revision="fs25"/>
 
         <!-- Permissions Frame (FS25) -->
-        <text name="easyDevControls_adminLogin" text="Log in as EDC admin" revision="fs25"/>
-        <text name="easyDevControls_adminLogout" text="Logout as EDC admin" revision="fs25"/>
-        <text name="easyDevControls_changePassword" text="Change EDC admin password" revision="fs25"/>
-        <text name="easyDevControls_passwordChanged" text="Password changed: %s" revision="fs25"/>
-        <text name="easyDevControls_passwordInvalid" text="Invalid password combination / characters, please try again." revision="fs25"/>
-        <text name="easyDevControls_loggedIn" text="Logged in: %s" revision="fs25"/>
-        <text name="easyDevControls_loggedOut" text="Logged out: %s" revision="fs25"/>
-		<text name="easyDevControls_singlePlayerOnly" text="Single Player Only" revision="fs25"/>
+        <text name="easyDevControls_adminLogin" text="Zaloguj się jako admin EDC" revision="fs25"/>
+        <text name="easyDevControls_adminLogout" text="Wyloguj się jako admin EDC" revision="fs25"/>
+        <text name="easyDevControls_changePassword" text="Zmień hasło admina EDC" revision="fs25"/>
+        <text name="easyDevControls_passwordChanged" text="Zmienione hasło: %s" revision="fs25"/>
+        <text name="easyDevControls_passwordInvalid" text="Nieprawidłowa kombinacja/znaki hasła, spróbuj ponownie." revision="fs25"/>
+        <text name="easyDevControls_loggedIn" text="Zalogowany: %s" revision="fs25"/>
+        <text name="easyDevControls_loggedOut" text="Wylogowany: %s" revision="fs25"/>
+		<text name="easyDevControls_singlePlayerOnly" text="Tylko tryb kariery" revision="fs25"/>
 
         <!-- Inputs -->
         <text name="input_EDC_SHOW_UI" text="Otwórz menu"/>
@@ -705,7 +705,7 @@ INFO: Podczas tego procesu nie są wywoływane żadne funkcje zmian aktualizacji
         <text name="easyDevControls_helpHeader" text="Pomoc"/>
         <text name="easyDevControls_aboutHeader" text="Informacje"/>
 
-        <text name="easyDevControls_aboutInfo" text="Easy Development Controls został zaprojektowany jako narzędzie testowe dla modderów, maperów i twórców treści. Może również pomóc w ustawieniach rozgrywki lub w dowolny sposób, w jaki chcesz grać.
+        <text name="easyDevControls_aboutInfo" text="Easy Development Controls został zaprojektowany jako narzędzie testowe dla modderów, mapperów i innych twórców treści. Może również pomóc w ustawieniach rozgrywki lub w dowolny sposób, w jaki chcesz grać.
 
 Zawiera niektóre funkcje dostępne już za pośrednictwem komend w konsoli, ale teraz są łatwo dostępne, a także dodaje wiele nowych funkcji.
 
