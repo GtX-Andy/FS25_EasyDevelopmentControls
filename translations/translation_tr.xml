@@ -1,0 +1,725 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<l10n>
+    <contributors>
+        <name>Rhmea</name>
+    </contributors>
+
+    <!-- Translation Notes!
+        Use &amp; for & symbol
+        Use &quot; for " double quotes
+
+        Use &gt; for > (greater-than character)
+        Use &lt; for < (less-than character)
+
+        Please make sure all formatting is equal to English.  (%s or %d or %i or %%)
+        Please 'Game Test' all features to make sure formatting is correct and no errors are produced in the log file!
+
+        When 'FS25_EasyDevControls' is unzipped in your mod folder it is possible to reload the language files to check progress.
+          - Console Command: gtxReloadEasyDevControlsTranslations
+
+        Entries that include (tag="namedFormat") include special formatting:
+          - These texts allow the formatted text to be written in any order required by the translation.
+          - No changes should be made to the named formatting portion of the text.  Example: %{objectName}s
+
+        Entries that include (revision="fs25") are new or changed for FS25 and require a new translation.
+    -->
+
+    <texts>
+        <!-- Inputs (FS25) -->
+        <text name="input_EDC_SUPER_STRENGTH" text="Toggle super strength" revision="fs25"/>
+
+        <!-- First Load Info (FS25) -->
+        <text name="easyDevControls_firstLoadInfo" text="Don't know how to do something?
+Check the Help section in the Easy Development Controls menu.
+
+All input bindings can be configured via the In-Game menu controls screen." revision="fs25"/>
+
+        <!-- Misc (FS25) -->
+        <text name="easyDevControls_resetPageSuccess" text="Page commands have been reset..." revision="fs25"/>
+        <text name="easyDevControls_squareMeterShort" text="m²" revision="fs25"/>
+        <text name="easyDevControls_typeTree" text="tree" revision="fs25"/>
+        <text name="easyDevControls_typeTrees" text="trees" revision="fs25"/>
+        <text name="easyDevControls_placeholderEnterAmount" text="Enter Amount" revision="fs25"/>
+        <text name="easyDevControls_placeholderEnterCoordinates" text="Enter Coordinates" revision="fs25"/>
+        <text name="easyDevControls_decoration" text="Decoration" revision="fs25"/>
+        <text name="easyDevControls_dense" text="Dense" revision="fs25"/>
+        <text name="easyDevControls_ridgeSown" text="Ridge Sown" revision="fs25"/>
+        <text name="easyDevControls_currentValue" text="Current: %s" revision="fs25"/>
+        <text name="easyDevControls_noTrigger" text="No Trigger" revision="fs25"/>
+        <text name="easyDevControls_verbose" text="Verbose" revision="fs25"/>
+        <text name="easyDevControls_blocked" text="Blocked" revision="fs25"/>
+        <text name="easyDevControls_weatherTypePartiallyCloudy" text="Partially Cloudy" revision="fs25"/>
+        <text name="easyDevControls_weatherTypeHail" text="Hail" revision="fs25"/>
+        <text name="easyDevControls_weatherTypeTwister" text="Twister" revision="fs25"/>
+        <text name="easyDevControls_weatherTypeThunder" text="Thunder" revision="fs25"/>
+
+        <!-- General Frame (FS25) -->
+        <text name="easyDevControls_setFovCurrentAngleInfo" text="Current: %d°" revision="fs25"/>
+
+        <!-- Player Frame (FS25) -->
+        <text name="easyDevControls_superStrengthKeyTitle" text="Super Strength Input" revision="fs25"/>
+        <text name="easyDevControls_superStrengthKeyInfo" text="Super Strength input (%s) %s" revision="fs25"/>
+        <text name="easyDevControls_superStrengthKeyHelp" text="Enables / Disables the Super Strength input binding." revision="fs25"/>
+        <text name="easyDevControls_jumpDelayTitle" text="Jump Delay" revision="fs25"/>
+        <text name="easyDevControls_jumpDelayInfo" text="Jump delay state: %s" revision="fs25"/>
+        <text name="easyDevControls_jumpDelayHelp" text="Sets player jump delay in seconds." revision="fs25"/>
+        <text name="easyDevControls_noClipTitle" text="No Clip" revision="fs25"/>
+        <text name="easyDevControls_noClipHelp" text="Disables player collisions." revision="fs25"/>
+        <text name="easyDevControls_playerDebugInitialisationTitle" text="Debug Initialisation" revision="fs25"/>
+        <text name="easyDevControls_playerDebugHandToolsTitle" text="Debug Hand Tools" revision="fs25"/>
+        <text name="easyDevControls_playerDebugNetworkTitle" text="Debug Network" revision="fs25"/>
+        <text name="easyDevControls_playerDebugGraphicsTitle" text="Debug Graphics" revision="fs25"/>
+        <text name="easyDevControls_playerDebugStateTitle" text="Debug State" revision="fs25"/>
+        <text name="easyDevControls_playerDebugMovementTitle" text="Debug Movement" revision="fs25"/>
+        <text name="easyDevControls_playerDebugInputTitle" text="Debug Input" revision="fs25"/>
+        <text name="easyDevControls_playerDebugDisplayInfo" text="Player debug flag %s is now %s." revision="fs25"/>
+        <text name="easyDevControls_playerDebugDisplayHelp" text="Enables / Disables the %s debug flag." revision="fs25"/>
+
+        <!-- Objects Frame (FS25) -->
+        <text name="easyDevControls_numObjectsHelp" text="Displays the number of %s on the map and any limits when applicable." revision="fs25"/>
+        <text name="easyDevControls_plantTreeTitle" text="Plant Tree" revision="fs25"/>
+        <text name="easyDevControls_plantTreeInfo" text="Tree has been planted." revision="fs25"/>
+        <text name="easyDevControls_plantTreeHelp" text="Plants the selected tree type in front of the player.  Warning: No collision checks are executed, make sure the area in front of the player is clear!" revision="fs25"/>
+        <text name="easyDevControls_growthStage" text="Growth Stage %d" revision="fs25"/>
+        <text name="easyDevControls_splitShapesTitle" text="Split Shapes" revision="fs25"/>
+        <text name="easyDevControls_removeAllSplitShapesTitle" text="Remove Split Shapes" revision="fs25"/>
+        <text name="easyDevControls_showCollisionsInfo" text="Enable debug view (F5) to render collision information." revision="fs25"/>
+
+        <!-- Vehicles Frame (FS25) -->
+        <text name="easyDevControls_vehicleWetness" text="Wetness" revision="fs25"/>
+
+        <!-- Placeables Frame (FS25) -->
+        <text name="easyDevControls_tipToTriggerSuccess" text="Tipped %s to trigger." revision="fs25"/>
+
+        <!-- Farmlands Frame (FS25) -->
+        <text name="easyDevControls_clearHeightTypesTitle" text="Clear Height Types" revision="fs25"/>
+        <text name="easyDevControls_setRiceFieldTitle" text="Set Rice Field" revision="fs25"/>
+        <text name="easyDevControls_setRiceFieldHelp" text="Allows the following changes to be made to the rice field in range." revision="fs25"/>
+
+        <!-- Environment Frame (FS25) -->
+        <text name="easyDevControls_tireTrackDebugTitle" text="Tyre Track Debug" revision="fs25"/>
+        <text name="easyDevControls_tireTrackDebugHelp" text="Enables / Disables the tyre track debug mode with permanently active and coloured tracks." revision="fs25"/>
+
+        <!-- Permissions Frame (FS25) -->
+        <text name="easyDevControls_adminLogin" text="Log in as EDC admin" revision="fs25"/>
+        <text name="easyDevControls_adminLogout" text="Logout as EDC admin" revision="fs25"/>
+        <text name="easyDevControls_changePassword" text="Change EDC admin password" revision="fs25"/>
+        <text name="easyDevControls_passwordChanged" text="Password changed: %s" revision="fs25"/>
+        <text name="easyDevControls_passwordInvalid" text="Invalid password combination / characters, please try again." revision="fs25"/>
+        <text name="easyDevControls_loggedIn" text="Logged in: %s" revision="fs25"/>
+        <text name="easyDevControls_loggedOut" text="Logged out: %s" revision="fs25"/>
+        <text name="easyDevControls_singlePlayerOnly" text="Single Player Only" revision="fs25"/>
+
+        <!-- Inputs -->
+        <text name="input_EDC_SHOW_UI" text="Menüyü Aç"/>
+        <text name="input_EDC_PLAYER_RUN_SPEED" text="Koşma Hızı"/>
+        <text name="input_EDC_OBJECT_DELETE" text="Objeyi Sil"/>
+        <text name="input_EDC_TOGGLE_HUD" text="Hud Modu"/>
+
+        <!-- Load Error -->
+        <text name="easyDevControls_loadError" text="Bu moddan dolayı  %s  bu mod  %s  yüklenemedi veya desteklemiyor!
+Hata oluşmaması için bu modu kaldırın!
+
+Son resmi oyun için Giants modHub'a ulaşmak için ziyaret edin."/>
+
+        <!-- Misc -->
+        <text name="easyDevControls_typePlaceables" text="Yerleştirelebilirler"/>
+        <text name="easyDevControls_typePlaceable" text="Yerleştirelebilir"/>
+        <text name="easyDevControls_typePrePlacedPlaceables" text="Yerleştirilmişler"/>
+        <text name="easyDevControls_typePrePlacedPlaceable" text="Yerleştirilmiş"/>
+        <text name="easyDevControls_typeProductionPoints" text="Üretim Noktaları"/>
+        <text name="easyDevControls_typeProductionPoint" text="Üretim Noktası"/>
+        <text name="easyDevControls_typeProductions" text="Üretimler"/>
+        <text name="easyDevControls_typeProduction" text="Üretim"/>
+        <text name="easyDevControls_typeVehicles" text="Araçlar"/>
+        <text name="easyDevControls_typeVehicle" text="Araç"/>
+        <text name="easyDevControls_typeTrainSystems" text="Trenler"/>
+        <text name="easyDevControls_typeTrainSystem" text="Tren"/>
+        <text name="easyDevControls_typePallets" text="Paletler"/>
+        <text name="easyDevControls_typePallet" text="Palet"/>
+        <text name="easyDevControls_typeBales" text="Balyalar"/>
+        <text name="easyDevControls_typeBale" text="Balya"/>
+        <text name="easyDevControls_typeLogs" text="Kütükler"/>
+        <text name="easyDevControls_typeLog" text="Kütük"/>
+        <text name="easyDevControls_typeStumps" text="Kökler"/>
+        <text name="easyDevControls_typeStump" text="Kök"/>
+        <text name="easyDevControls_typeFields" text="Tarlalar"/>
+        <text name="easyDevControls_typeField" text="Tarla"/>
+        <text name="easyDevControls_typeUnknownTypes" text="Bilinmiyen Türler"/>
+        <text name="easyDevControls_typeUnknownType" text="Bilinmiyen Tür"/>
+        <text name="easyDevControls_weatherTypeSunny" text="Güneşli"/>
+        <text name="easyDevControls_weatherTypeCloudy" text="Bulutlu"/>
+        <text name="easyDevControls_weatherTypeRaining" text="Yağmurlu"/>
+        <text name="easyDevControls_weatherTypeSnowing" text="Karlı"/>
+        <text name="easyDevControls_seasonSpring" text="Bahar"/>
+        <text name="easyDevControls_seasonSummer" text="Yaz"/>
+        <text name="easyDevControls_seasonAutumn" text="Sonbahar"/>
+        <text name="easyDevControls_seasonWinter" text="Kış"/>
+        <text name="easyDevControls_radius" text="Yarıçap"/>
+        <text name="easyDevControls_random" text="Rastgale"/>
+        <text name="easyDevControls_unitLitres" text="Litre"/>
+        <text name="easyDevControls_unitPercent" text="Yüzde"/>
+        <text name="easyDevControls_activeProductions" text="Aktif Üretim"/>
+        <text name="easyDevControls_owner" text="Sahip"/>
+        <text name="easyDevControls_price" text="Fiyat"/>
+        <text name="easyDevControls_location" text="Konum"/>
+        <text name="easyDevControls_tableId" text="Tablo ID"/>
+        <text name="easyDevControls_transferCost" text="Transfer Maliyeti"/>
+        <text name="easyDevControls_variation" text="Varyasyon"/>
+        <text name="easyDevControls_variations" text="Varyasyonlar"/>
+        <text name="easyDevControls_info" text="Bilgi"/>
+        <text name="easyDevControls_size" text="Boy"/>
+        <text name="easyDevControls_fillTypes" text="Ürün Türleri"/>
+        <text name="easyDevControls_rolledSeedbed" text="Tohum Yatağı"/>
+        <text name="easyDevControls_directSown" text="İşlenmiş Toprak"/>
+        <text name="easyDevControls_planted" text="Ekili"/>
+        <text name="easyDevControls_ridge" text="Yükselti"/>
+        <text name="easyDevControls_rollerLines" text="Silindir Hatları"/>
+        <text name="easyDevControls_harvestReadyOther" text="Diğer hasat için hazır"/>
+        <text name="easyDevControls_grassCut" text="Çim biçme"/>
+        <text name="easyDevControls_width" text="Genişlik"/>
+        <text name="easyDevControls_height" text="Yükseklik"/>
+        <text name="easyDevControls_length" text="Uzunluk"/>
+        <text name="easyDevControls_diameter" text="Çap"/>
+        <text name="easyDevControls_mask" text="Maske"/>
+        <text name="easyDevControls_picked" text="Seçilmiş"/>
+        <text name="easyDevControls_small" text="Küçük"/>
+        <text name="easyDevControls_medium" text="Orta"/>
+        <text name="easyDevControls_large" text="Büyük"/>
+        <text name="easyDevControls_partial" text="Partial"/>
+        <text name="easyDevControls_growing" text="Büyüyor"/>
+        <text name="easyDevControls_withered" text="Solmuş"/>
+        <text name="easyDevControls_enabled" text="Aktif"/>
+        <text name="easyDevControls_disabled" text="Devredışı"/>
+        <text name="easyDevControls_infohud_stump" text="Kütük"/>
+        <text name="easyDevControls_infohud_tree" text="Ağaç"/>
+        <text name="easyDevControls_all" text="Hepsi"/>
+        <text name="easyDevControls_found" text="Bulundu"/>
+        <text name="easyDevControls_state" text="Belirtmek %s"/>
+        <text name="easyDevControls_type" text="Ürün %s"/>
+        <text name="easyDevControls_fill" text="Doldurmak"/>
+        <text name="easyDevControls_empty" text="Boş"/>
+        <text name="easyDevControls_maximum" text="Maksimum"/>
+        <text name="easyDevControls_input" text="Girdi"/>
+        <text name="easyDevControls_output" text="Çıktı"/>
+        <text name="easyDevControls_open" text="Aç"/>
+        <text name="easyDevControls_opened" text="Açık"/>
+        <text name="easyDevControls_close" text="Kapat"/>
+        <text name="easyDevControls_closed" text="Kapalı"/>
+        <text name="easyDevControls_square" text="Kare"/>
+        <text name="easyDevControls_round" text="Yuvarlak"/>
+        <text name="easyDevControls_wrapped" text="Sarılmış"/>
+        <text name="easyDevControls_unwrapped" text="Ambalajsız"/>
+        <text name="easyDevControls_add" text="Ekle"/>
+        <text name="easyDevControls_remove" text="Sil"/>
+        <text name="easyDevControls_set" text="Ayarla"/>
+        <text name="easyDevControls_default" text="Varsayılan"/>
+        <text name="easyDevControls_success" text="Başarı"/>
+        <text name="easyDevControls_farmProducts" text="Çiftlik ürünleri"/>
+        <text name="easyDevControls_unknown" text="Bilinmiyor"/>
+        <text name="easyDevControls_reload" text="Yeniden Yükle"/>
+        <text name="easyDevControls_reloadReset" text="Yeniden Yükle / Sıfırla"/>
+        <text name="easyDevControls_deleteObject" text="Sil %s"/>
+        <text name="easyDevControls_formattedSeconds" text="%d Saniye"/>
+        <text name="easyDevControls_userSetting" text="Kullanıcı Ayarları"/>
+        <text name="easyDevControls_refreshing" text="Yenileniyor"/>
+        <text name="easyDevControls_noField" text="Tarla Yok"/>
+        <text name="easyDevControls_unsupported" text="Desteklenmiyor"/>
+        <text name="easyDevControls_overview" text="Genel Bakış"/>
+        <text name="easyDevControls_author" text="Sahibi"/>
+        <text name="easyDevControls_translations" text="Çeviriler"/>
+        <text name="easyDevControls_bugReporting" text="Hata Raporlanıyor"/>
+
+        <!-- Messages -->
+        <text name="easyDevControls_superStrengthOnMessage" text="Süper Güç Etkinleştirildi %s"/>
+        <text name="easyDevControls_superStrengthOffMessage" text="Süper Güç Devredışı %s"/>
+        <text name="easyDevControls_requestCancelledMessage" text="İstek İptal Edildi"/>
+        <text name="easyDevControls_requestFailedMessage" text="İstek Başarısız!"/>
+        <text name="easyDevControls_updatingAllFieldsMessage" text="Tüm alanlar güncelleniyor, lütfen bekleyin..."/>
+        <text name="easyDevControls_reloadFailedMessage" text="Aşağıdaki %s yeniden yüklenemedi."/>
+        <text name="easyDevControls_ignoreRemoveIfEmptyMessage" text="Doldurma düzeyi '%s' 0 olarak ayarlandı, bunu yok saymak mı yoksa kaldırmak mı istiyorsunuz?"/>
+        <text name="easyDevControls_serverRequestMessage" text="Sunucudan güncelleme isteniyor, lütfen bekleyin."/>
+        <text name="easyDevControls_defaultResetFailedMessage" text="Varsayılana sıfırlanamadı!"/>
+        <text name="easyDevControls_unknownFailMessage" text="Başarısız, bilinmeyen sebep!"/>
+        <text name="easyDevControls_noInformationMessage" text="Bilgi bulunmamaktadır."/>
+
+        <!-- Warnings -->
+        <text name="easyDevControls_invalidFarmWarning" text="Başarısız, geçersiz çiftlik!"/>
+        <text name="easyDevControls_invalidMoneyWarning" text="Geçersiz para değeri '%s' verildi!"/>
+        <text name="easyDevControls_invalidValueWarning" text="Geçersiz değer verildi!"/>
+        <text name="easyDevControls_invalidFillTypeWarning" text="Desteklenmeyen ürün türü verildi!"/>
+        <text name="easyDevControls_invalidTreeTypeWarning" text="Desteklenmeyen ağaç türü verildi!"/>
+        <text name="easyDevControls_setTimeWarning" text="Zamanı %s ve %s kadar ileri almak istediğinizden emin misiniz?"/>
+        <text name="easyDevControls_timeScaleWarning" text="Ay, Gün veya Saat ayarı yalnızca zaman ölçeği '%s' veya daha düşük olarak ayarlandığında mümkündür!"/>
+        <text name="easyDevControls_setFOVAngleWarning" text="Görüş alanı (FOV) ayarlanamadı, %s geçerli bir değer değil!"/>
+        <text name="easyDevControls_invalidTeleportWarning" text="Geçersiz X / Z koordinatları! Bir boşlukla ayrılmış yalnızca X ve Z konumlarını listeleyin."/>
+        <text name="easyDevControls_emptyTeleportWarning" text="Önce kutuya geçerli X / Z koordinatlarını girin veya listeden alan numarasını seçin!"/>
+        <text name="easyDevControls_extraTimescalesWarning" text="5000x'ten büyük zaman ölçeklerinin kullanılması, temel oyun ve özel komut dosyaları üzerinde olumsuz bir etkiye sahip olabilir. Test amacıyla yalnızca ekstra hızlı zaman ölçeklerinin kullanılması önerilir!"/>
+        <text name="easyDevControls_resetPageWarning" text="Geçerli sayfayı varsayılan ayarlara sıfırlamak istediğinizden emin misiniz?"/>
+        <text name="easyDevControls_resetPermissionsWarning" text="Tüm izinleri varsayılana sıfırlamak istediğinizden emin misiniz?"/>
+        <text name="easyDevControls_noValidVehicleWarning" text="Geçerli araç(lar) bulunamadı!"/>
+        <text name="easyDevControls_invalidFarmVehicleWarning" text="Seçilen araç çiftliğinize ait değil!"/>
+        <text name="easyDevControls_setPowerConsumerWarning" text="Ek seçilmedi veya seçilen cihaz enerji kullanmıyor!"/>
+        <text name="easyDevControls_vehicleAnalyseWarning" text="Seçilen araç '%s' analiz edilmeye çalışılıyor.
+
+En iyi sonuçlar için aracın x/z düzlemine paralel olan düz bir düzlemde konumlandırıldığından emin olun."/>
+        <text name="easyDevControls_vehicleAnalyseFailedWarning" text="Araç analiz edilemedi, geçersiz veya araç bulunamadı!"/>
+        <text name="easyDevControls_removeAllObjectsWarning" text="%s'nin tamamını haritadan kaldırmak istediğinizden emin misiniz?"/>
+        <text name="easyDevControls_modConflictWarning" text="%s tarafından '%s' moduyla çakışma nedeniyle işlev devre dışı bırakıldı."/>
+        <text name="easyDevControls_failedToSpawnObjectWarning" text="%s oluşturulamadı! Lütfen tekrar deneyin."/>
+
+        <!-- GUI Buttons -->
+        <text name="easyDevControls_removeBlurButton" text="Arkaplanı kaldırın"/>
+        <text name="easyDevControls_addBlurButton" text="Arka plan ekle"/>
+        <text name="easyDevControls_buttonConfirmAndClose" text="Onayla ve Kapat"/>
+        <text name="easyDevControls_buttonClear" text="Temizle"/>
+
+        <!-- General Frame XML -->
+        <text name="easyDevControls_generalHeader" text="Genel"/>
+
+        <text name="easyDevControls_cheatMoneyTitle" text="Para Hilesi"/>
+        <text name="easyDevControls_addMoneyTitle" text="Para Ekle"/>
+        <text name="easyDevControls_removeMoneyTitle" text="Para Sil"/>
+        <text name="easyDevControls_setMoneyTitle" text="Para Ayarla"/>
+        <text name="easyDevControls_flightModeToggleTitle" text="Uçuş Modu"/>
+        <text name="easyDevControls_flightModeStateTitle" text="Uçuş Durumu"/>
+        <text name="easyDevControls_hudVisibilityTitle" text="Hud Görünürlüğü"/>
+        <text name="easyDevControls_hudInputTitle" text="Hud Girişi"/>
+        <text name="easyDevControls_teleportTitle" text="Işınlanma"/>
+        <text name="easyDevControls_teleportFormatedTitle" text="Işınlan %s"/>
+        <text name="easyDevControls_teleportMapSelect" text="Bölge Seçimi"/>
+        <text name="easyDevControls_flipVehiclesTitle" text="Aracı Düzelt"/>
+        <text name="easyDevControls_deleteObjectsKeyTitle" text="Nesneleri Sil Kısayol"/>
+        <text name="easyDevControls_setFOVAngleTitle" text="FOV Açısını Ayarla"/>
+        <text name="easyDevControls_setQualityTitle" text="Kaliteyi Ayarla"/>
+        <text name="easyDevControls_extraTimescalesTitle" text="Ekstra Zaman Hızı"/>
+        <text name="easyDevControls_stopTimeTitle" text="Zamanı Durdur"/>
+        <text name="easyDevControls_showCollectablesTitle" text="Koleksiyon Eşyalarını Göster"/>
+        <text name="easyDevControls_clearI3DCacheTitle" text="I3D Önbelleğini Temizle"/>
+        <text name="easyDevControls_reloadStoreItemsTitle" text="Mağaza Öğelerini Yeniden Yükle"/> <!-- Google Translate -->
+
+        <!-- General Frame Info -->
+        <text name="easyDevControls_addMoneyInfo" text="%s Çiftlik Hesabına Eklendi"/>
+        <text name="easyDevControls_removeMoneyInfo" text="%s Çiftlik Hesabına Silindi"/>
+        <text name="easyDevControls_setMoneyInfo" text="Çiftlik hesabı bakiyesini şuna ayarlandı: %s."/>
+        <text name="easyDevControls_flightModeToggleInfo" text="Uçuş modu: %s"/>
+        <text name="easyDevControls_flightModeStateOffInfo" text="Uçuş Durumu: %s"/>
+        <text name="easyDevControls_flightModeStateOnInfo" text="Uçuş Durumu: %s (Q ve E tuşlarını kullanarak yükselip alçalın)"/>
+        <text name="easyDevControls_hudVisibilityInfo" text="Hud görünürlüğü: %s"/>
+        <text name="easyDevControls_hudInputOffInfo" text="Hud girişleri kapalı"/>
+        <text name="easyDevControls_hudInputOnInfo" text="Hud girişi açık (Bağlamanın Hud Görünümü'%s')"/>
+        <text name="easyDevControls_teleportPlayerFieldInfo" text="Oyuncu Başarıyla %s Işınlandı." revision="fs25"/> <!-- field > farmland -->
+        <text name="easyDevControls_teleportVehiclesFieldInfo" text="%s Araçı başarıyla %s tarlaya ışınlandı." revision="fs25"/> <!-- field > farmland -->
+        <text name="easyDevControls_teleportPlayerInfo" text="Oyuncu başarılı %s, %s koordinatörlerine ışınlandılar."/>
+        <text name="easyDevControls_teleportVehiclesInfo" text="'%s' aracılarıyla %s, %s koordinatlarına ışınlandınız."/>
+        <text name="easyDevControls_flipVehiclesInfo" text="Araç hizasını doğru şekilde hizalamaya çalışın."/>
+        <text name="easyDevControls_deleteObjectsKeyInfo" text="Nesne Silme Kısayolu (%s) %s"/>
+        <text name="easyDevControls_setFovAngleInfo" text="Kamera FOV'u şu şekilde güncellendi: %d°."/>
+        <text name="easyDevControls_resetFovAngleInfo" text="Görüş alanına sıfırlandı %d°."/>
+        <text name="easyDevControls_setQualityInfo" text="%s kalite seti."/>
+        <text name="easyDevControls_extraTimescalesInfo" text="Ekstra zaman ölçekleri %s"/>
+        <text name="easyDevControls_stopTimeInfo" text="Ekstra zaman sıfırlandı."/>
+        <text name="easyDevControls_clearI3DCacheInfo" text="Tüm çevre i3d dosyaları silindi."/>
+        <text name="easyDevControls_reloadStoreItemsInfo" text="%s mağaza öğesi başarıyla yeniden yüklendi."/> <!-- Google Translate -->
+
+        <!-- General Frame Help -->
+        <text name="easyDevControls_addMoneyHelp" text="Çiftlik hesabı bakiyenize para ekleri."/>
+        <text name="easyDevControls_removeMoneyHelp" text="Çiftlik hesabı bakiyenize para siler."/>
+        <text name="easyDevControls_setMoneyHelp" text="Çiftlik bakiyesini verilen değere ayarlar."/>
+        <text name="easyDevControls_flightModeToggleHelp" text="Oyuncu Uçuş Modu"/>
+        <text name="easyDevControls_flightModeStateHelp" text="Uçuş Modu açık ise J tuşu ile aktif ve pasif hale getirebilirsiniz. Q ve E tuşları ile yükselip alçalabilirsiniz."/>
+        <text name="easyDevControls_hudVisibilityHelp" text="Hud'un görünürlüğünü ayarlar."/>
+        <text name="easyDevControls_hudInputHelp" text="'Hud'u değiştir' giriş bağlamasının kullanılabilirliğini değiştirebilirsin."/>
+        <text name="easyDevControls_teleportHelp" text="Işınlanma Oyuncu veya Oyuncunun içinde bulunduğu araçı istediği noktaya ışınlar. Bunun için tarla veya koordinat x / z girmeniz gerekecek. "/>
+        <text name="easyDevControls_flipVehiclesHelp" text="Bir araç ile ilgili ve uyumlu şekilde düzenlemeler yapmak için kullanılır."/>
+        <text name="easyDevControls_deleteObjectsKeyHelp" text="Nesne silme ile neredeyse istediğiniz herşeyi silebilirsiniz.
+
+Not: Özellik yalnızca 'Ana Erişim/Yönetici' tarafından kullanılabilir!"/>
+        <text name="easyDevControls_setFOVAngleHelp" text="Kamera (FOV) ayarı. Eski haline dönmek içim '-1' veya 'Sıfırla Butonu' kullanılabilir."/>
+        <text name="easyDevControls_setQualityHelp" text="Yüksek kaliteli ekran görüntüsüne izin vermek için veya düzgün ayar ayarları yapar."/>
+        <text name="easyDevControls_extraTimescalesHelp" text="Ekstra Zaman Ayarı: %s."/>
+        <text name="easyDevControls_stopTimeHelp" text="Ekstra Zaman Ayarı Durdur."/>
+        <text name="easyDevControls_showCollectablesHelp" text="Koleksiyonların haritada ne oranda gösterebilecek ayarlar. Not: Şu anda yalnızca'Tek Oyuncu' kullanımı içindir."/>
+        <text name="easyDevControls_clearI3DCacheHelp" text="En son düzenlemelerin diskten arındırılması için önbelleğe alınmış tümi3d sergilenir. Kullanım amaçlı i3d kullanımdan dolayı bu işlev dışı kullanımda."/>
+        <text name="easyDevControls_reloadStoreItemsHelp" text="Mağaza yapılandırma seçenekleri dahil tüm mağaza öğeleri verilerini yeniden yükler."/> <!-- Google Translate -->
+
+        <!-- Player Frame XML -->
+        <text name="easyDevControls_playerHeader" text="Oyuncu"/>
+
+        <text name="easyDevControls_superStrengthTitle" text="Süper Güç"/>
+        <text name="easyDevControls_jumpMultiplierTitle" text="Süper Zıpla"/>
+        <text name="easyDevControls_thirdPersonViewTitle" text="Üçüncü Kişi Görünümü"/>
+        <text name="easyDevControls_woodCuttingMarkerTitle" text="Ağaç Kesme İşareti"/>
+        <text name="easyDevControls_aimOverlayTitle" text="Aim Aç / Kapa"/>
+        <text name="easyDevControls_runSpeedTitle" text="Koşu Hızı"/>
+        <text name="easyDevControls_runSpeedKeyTitle" text="Koşu Hızı Kısayol"/>
+        <text name="easyDevControls_setFarmTitle" text="Çiftlik Seç"/>
+        <text name="easyDevControls_playerDebugTitle" text="Hata Bilgisi"/>
+        <text name="easyDevControls_playerFsmDebugTitle" text="Makinesi Hata Ayıklama"/>
+        <text name="easyDevControls_playerFsmStateJumpDebugTitle" text="Zıplama Hata Ayıklaması"/>
+
+        <!-- Player Frame Info -->
+        <text name="easyDevControls_superStrengthOffInfo" text="Oyuncu artık normal güce sahip"/>
+        <text name="easyDevControls_superStrengthOnInfo" text="Oyuncu süper güç ve artırılmış menzile sahip"/>
+        <text name="easyDevControls_jumpMultiplierInfo" text="Süper Atlama Çarpanı %s"/>
+        <text name="easyDevControls_thirdPersonViewInfo" text="Üçüncü Şahıs Görünümü %s"/>
+        <text name="easyDevControls_woodCuttingMarkerInfo" text="Ahşap Kesme İşaretleyicisi %s"/>
+        <text name="easyDevControls_aimOverlayInfo" text="Aim %s"/>
+        <text name="easyDevControls_runSpeedInfo" text="Koşu Hızı Çarpanı %s"/>
+        <text name="easyDevControls_runSpeedStateInfo" text="Koşu Hızı %s"/>
+        <text name="easyDevControls_runSpeedKeyInfo" text="Koşu Hızı Tuşu (%s) %s"/>
+        <text name="easyDevControls_setFarmInfo" text="Değiştir %s Çiftliğe %s"/>
+        <text name="easyDevControls_playerDebugInfo" text="Oyuncu hata bilgileri %s"/>
+        <text name="easyDevControls_playerFsmDebugInfo" text="Oyuncu durumu Makine hata bilgileri %s"/>
+        <text name="easyDevControls_playerFsmStateJumpDebugInfo" text="Oyuncu atlama durumu oyundaki hata %s"/>
+
+        <!-- Player Frame Help -->
+        <text name="easyDevControls_superStrengthHelp" text="Süper güç kazanırsın."/>
+        <text name="easyDevControls_jumpMultiplierHelp" text="Süper Zıplama ile Daha Yükseğe"/>
+        <text name="easyDevControls_thirdPersonViewHelp" text="Üçüncü Şahıs Görünümü
+
+Not: Bu mod ekran tasarımı için tasarlanmıştır."/> <!-- Translators: Space is intentional for easy reading -->
+        <text name="easyDevControls_woodCuttingMarkerHelp" text="Motorlu testere ağaç kesme işaretçisinin görünümündedir."/>
+        <text name="easyDevControls_aimOverlayHelp" text="İşaretçilerinin işaretlerinin görünümünün hedefinde."/>
+        <text name="easyDevControls_runSpeedHelp" text="'Artırılmış çalışma hızı' 'Açık' kullanılacak puanı ayarlar."/>
+        <text name="easyDevControls_runSpeedStateHelp" text="Koşu hızında yükseltme. 'Kapalı', oyuncuların önlerinde yürüyecek ve koşacak."/>
+        <text name="easyDevControls_runSpeedKeyHelp" text="'Artırılmış çalışma hızı' giriş bağlamasının kullanılabilirliğini değiştirir."/>
+        <text name="easyDevControls_setFarmHelp" text="Oyuncuların mevcut çiftliğini veya bir araç çiftliğini tercih edebilirsin."/>
+        <text name="easyDevControls_playerDebugHelp" text="Oyuncu hata değişikliği."/>
+        <text name="easyDevControls_playerFsmDebugHelp" text="Oyuncu durumu sistemde hata yapma."/>
+        <text name="easyDevControls_playerFsmStateJumpDebugHelp" text="Oyuncu geçişte hata yapma. Atlama dizisi / süresi boyunca dosya dosyası oluşturulacaktır."/>
+
+        <!-- Objects Frame XML -->
+        <text name="easyDevControls_objectsHeader" text="Nesneler / Ürün Tipleri"/>
+
+        <text name="easyDevControls_addBaleTitle" text="Balya Ekle"/>
+        <text name="easyDevControls_availableBaleTypesTitle" text="Mevcut Balya Çeşitleri"/>
+        <text name="easyDevControls_fermentingBalesTitle" text="Fermente Balyalar"/>
+        <text name="easyDevControls_showBaleLocationsTitle" text="Balyaların Yerlerini Göster"/>
+        <text name="easyDevControls_showPalletLocationsTitle" text="Paletlerin Yerlerini Göster"/>
+        <text name="easyDevControls_addPalletTitle" text="Palet Ekle"/>
+        <text name="easyDevControls_addLogTitle" text="Kütük Ekle"/>
+        <text name="easyDevControls_tipToTriggerTitle" text="Tip To Trigger"/>
+        <text name="easyDevControls_tipToGroundTitle" text="Yere Ekle"/>
+        <text name="easyDevControls_clearTipAreaTitle" text="Bölgeyi Temizle"/>
+        <text name="easyDevControls_showTipCollisionsTitle" text="İpucu Çarpışmalarını Göster"/>
+        <text name="easyDevControls_removeAllBalesTitle" text="Balyaları Sil"/>
+        <text name="easyDevControls_removeAllPalletsTitle" text="Paletleri Sil"/>
+        <text name="easyDevControls_removeAllLogsTitle" text="Kesilen Ağaçları Sil"/>
+        <text name="easyDevControls_removeAllStumpsTitle" text="Kütükleri Sil"/>
+
+        <!-- Objects Frame Info -->
+        <text name="easyDevControls_spawnObjectsInfo" text="Ekleme %s."/>
+        <text name="easyDevControls_removeAllObjectsInfo" text=" %s %s Hartiadan Kaldırılma Başarılı"/>
+        <text name="easyDevControls_tipToGroundInfo" text="%s, %s gittiğin yere %s bahşiş verildi."/>
+        <text name="easyDevControls_clearTipAreaRadiusInfo" text="Temizleme Başarılı %s Yükseklikteki ve Yarıçapı %s."/>
+        <text name="easyDevControls_clearTipAreaFieldInfo" text="Temizleme Başarılı %s inden %s Ürün kaldırıldı"/>
+        <text name="easyDevControls_clearTipAreaMapInfo" text="Temizleme Başarılı Haritadan %s Ürün kaldırıldı."/>
+        <text name="easyDevControls_hotspotsEnabledInfo" text="Etkin %s noktalar."/>
+        <text name="easyDevControls_hotspotsDisabledInfo" text="Devredışı %s noktalar."/>
+
+        <!-- Objects Frame Help -->
+        <text name="easyDevControls_addBaleHelp" text="Belirlenen Balyayı Ekler"/>
+        <text name="easyDevControls_availableBaleTypesHelp" text="Mevcut Balyaların Ayrıntısını Görüntüler"/>
+        <text name="easyDevControls_fermentingBalesHelp" text="Mevcut Çiftliğe ait Tüm Fermante Balyaları Görüntüler"/>
+        <text name="easyDevControls_showBaleLocationsHelp" text="Çiftliğe ait Tüm Balyaları Nokta olarak Görüntüler"/>
+        <text name="easyDevControls_showPalletLocationsHelp" text="Çiftliğe ait Tüm Paletleri Nokta olarak Görüntüler"/>
+        <text name="easyDevControls_addPalletHelp" text="Oyuncunun Seçtiği Paleti Çitfliğe Ekler"/>
+        <text name="easyDevControls_addLogHelp" text="Oyuncunun Belirlediği Uzunlukta ve Türde Kütük Ekler."/>
+        <text name="easyDevControls_tipToTriggerHelp" text="Tips a product to a trigger that the player is currently standing on."/>
+        <text name="easyDevControls_tipToGroundHelp" text="1 > 25 metre arasında yere istediğiniz ürünü bırakır."/>
+        <text name="easyDevControls_clearTipAreaHelp" text="Verilen ölçülerden Ürün tipine göre veya herşeyi temizler."/>
+        <text name="easyDevControls_showTipCollisionsHelp" text="Yerde Oluşan Değişikliği Görntüle
+
+Green: Bit Vectors &lt;= 0
+Blue: Bit Vectors &gt; 0 or &lt;= 1
+Red: Bit Vectors &gt; 1"/> <!-- Translators: Space is intentional for easy reading. See note at top of page regarding &gt; and &lt; usage -->
+        <text name="easyDevControls_removeAllBalesHelp" text="Tüm Balyaarı Haritadan Sil"/>
+        <text name="easyDevControls_removeAllPalletsHelp" text="Tüm Paletleri Haritadan Sil"/>
+        <text name="easyDevControls_removeAllLogsHelp" text="Tüm Kütükleri Haritadan Sil"/>
+        <text name="easyDevControls_removeAllStumpsHelp" text="Tüm Kökleri Haritadan Sil"/>
+
+        <!-- Vehicle Frame XML -->
+        <text name="easyDevControls_vehiclesHeader" text="Araçlar"/>
+
+        <text name="easyDevControls_vehicleDirt" text="Kir"/>
+        <text name="easyDevControls_vehicleWear" text="Boya"/>
+        <text name="easyDevControls_vehicleDamage" text="Hasar"/>
+        <text name="easyDevControls_vehicleConditionTitle" text="Koşul"/>
+        <text name="easyDevControls_vehicleFuelTitle" text="Yakıt Seviyesi"/>
+        <text name="easyDevControls_vehicleMotorTempTitle" text="Motor Sıcaklığı"/>
+        <text name="easyDevControls_vehicleOperatingTimeTitle" text="Kullanım Saati"/>
+        <text name="easyDevControls_globalWiperStateTitle" text="Silecek Hızı"/>
+        <text name="easyDevControls_wiperStateRainSensor" text="Yağmur Sensörü"/>
+        <text name="easyDevControls_reloadVehicleTitle" text="Aracı Yeniden Yükle"/>
+        <text name="easyDevControls_analyseVehicleTitle" text="Aracı Analiz Et"/>
+        <text name="easyDevControls_vehicleDebugTitle" text="Araç Hata Ayıklama Durumu"/>
+        <text name="easyDevControls_tensionBeltsDebugTitle" text="Gergi Kayışları Hata Ayıklama"/>
+        <text name="easyDevControls_vehicleDistanceTitle" text="Araçlara Olan Mesafe"/>
+        <text name="easyDevControls_removeAllVehiclesTitle" text="Araçları Sil"/>
+        <text name="easyDevControls_setPowerConsumerTitle" text="Batarya Doldur"/>
+        <text name="easyDevControls_neededMinPtoPowerTitle" text="Minimum PTO Gücü"/>
+        <text name="easyDevControls_neededMaxPtoPowerTitle" text="Maksimum PTO Gücü"/>
+        <text name="easyDevControls_forceFactorTitle" text="Kuvvet Faktörü"/>
+        <text name="easyDevControls_maxForceTitle" text="Maksimum Kuvvet"/>
+        <text name="easyDevControls_forceDir" text="Kuvvet Yönü"/>
+        <text name="easyDevControls_ptoRpm" text="PTO devri"/>
+        <text name="easyDevControls_syncVehicles" text="Araçların Sekronizasyonu"/>
+        <text name="easyDevControls_resetToDefault" text="Varsayılana sıfırla"/>
+        <text name="easyDevControls_toggleCoverTitle" text="Kapağı Aç/Kapat"/>
+        <text name="easyDevControls_fillUnitFillLevelTitle" text="Ürün Seviyesi"/>
+        <text name="easyDevControls_fillUnitIndex" text="Ürün %s"/>
+
+        <!-- Vehicle Frame Info -->
+        <text name="easyDevControls_vehicleConditionInfo" text="%s durumu güncellendi."/>
+        <text name="easyDevControls_vehicleAndImplementsConditionInfo" text="%s durumu ve tüm bağlı gereçler güncellendi."/>
+        <text name="easyDevControls_vehicleFuelInfo" text="%s Seviyesi %s Ayarlandı %s %s."/>
+        <text name="easyDevControls_vehicleMotorTempInfo" text="Motor Sıcaklığı %s Ayarlandı %s c."/>
+        <text name="easyDevControls_vehicleOperatingTimeInfo" text="Motor Kullanım Saati %s Ayarlandı %s h."/>
+        <text name="easyDevControls_reloadVehicleInfo" text="Yeniden Yükelndi XML ve I3D Yeniden Yükelndi %s."/>
+        <text name="easyDevControls_vehicleAnalyseInfo" text="%s Başarıyla analiz edildi, daha fazla bilgi için oyun kayıtını kontrol edin."/>
+        <text name="easyDevControls_debugStateInfo" text="Hata Ayıklama Durumu:  %s"/>
+        <text name="easyDevControls_tensionBeltsDebugInfo" text="Gergi Kayışları Hata Ayıklama Durumu %s"/>
+        <text name="easyDevControls_vehicleDistanceInfo" text="Araç Mesafe Hata Ayıklam Durumu Şimdi %s"/>
+        <text name="easyDevControls_setPowerConsumerInfo" text="%s güç verileri güncellendi (Tüm araçlarla senkronize edildi: %s)."/>
+        <text name="easyDevControls_toggleCoverInfo" text="%s kapsama alanı olmayan bir alan %s, durum kimliği %s."/>
+        <text name="easyDevControls_setFillUnitFillLevelInfo" text="%s ila %s miktarında %s başarılı dolum ve %s dolumlar."/>
+        <text name="easyDevControls_setFillUnitEmptyInfo" text="%s, %s sayısıyla kaldırıldı."/>
+
+        <!-- Vehicles Frame Help -->
+        <text name="easyDevControls_vehicleConditionHelp" text="Adds, removes or sets the selected condition percentage to an 'entered vehicle and all implements' or a 'single vehicle' in range of the player."/>
+        <text name="easyDevControls_vehicleFuelHelp" text="Sets the fuel level of an entered vehicle or a vehicle in range of the player."/>
+        <text name="easyDevControls_vehicleMotorTempHelp" text="Sets the motor temperature of an entered vehicle or a vehicle in range of the player."/>
+        <text name="easyDevControls_vehicleOperatingTimeHelp" text="Sets the operating time of an entered vehicle or a vehicle in range of the player."/>
+        <text name="easyDevControls_globalWiperStateHelp" text="Set the global wiper state.
+
+Rain sensor: Automatic operation (Standard).
+Off: Disabled in all weather conditions.
+States 1 to 10: Vehicle specific states for testing."/> <!-- Translators: Space is intentional for easy reading -->
+        <text name="easyDevControls_reloadVehicleHelp" text="Reloads the I3D and XML of the currently entered vehicle and all attached implements or a single vehicle in range of the player."/>
+        <text name="easyDevControls_analyseVehicleHelp" text="Analyse a selected vehicle when entered or a vehicle in range of the player. Results will be printed to the log file."/>
+        <text name="easyDevControls_vehicleDebugHelp" text="Toggles the following vehicle debug values."/>
+        <text name="easyDevControls_tensionBeltsDebugHelp" text="Toggles the debug tension belt rendering of all vehicles"/>
+        <text name="easyDevControls_vehicleDistanceHelp" text="Shows the distance between all vehicles and the current camera."/>
+        <text name="easyDevControls_removeAllVehiclesHelp" text="Removes all vehicles and implements from the map."/>
+        <text name="easyDevControls_setPowerConsumerHelp" text="Sets the following properties of the powerConsumer specialisation."/>
+        <text name="easyDevControls_toggleCoverHelp" text="Toggles the cover of a selected vehicle when entered or a vehicle in range of the player."/>
+        <text name="easyDevControls_fillUnitFillLevelHelp" text="Updates a fillUnit with the given fill level and fillType."/>
+
+        <!-- Placeable Frame XML -->
+        <text name="easyDevControls_placeablesHeader" text="Yerleştirelebilir"/>
+
+        <text name="easyDevControls_productionPointTitle" text="Üretim Noktası"/>
+        <text name="easyDevControls_npcOwned" text="NPC Sahip"/>
+        <text name="easyDevControls_farmOwned" text="Çiftlik Sahip"/>
+        <text name="easyDevControls_currentTrigger" text="Mevcut Tetikleyici"/>
+        <text name="easyDevControls_setOwnerTitle" text="Sahibi Ayarla"/>
+        <text name="easyDevControls_setStateTitle" text="Set State"/>
+        <text name="easyDevControls_outputModeTitle" text="Çıkış Modu"/>
+        <text name="easyDevControls_fillLevelTitle" text="Doldurma Seviyesi"/>
+        <text name="easyDevControls_productionPointListTitle" text="Üretim Noktaları Listesi"/>
+        <text name="easyDevControls_deliveryMappingTitle" text="Teslimat Haritası"/>
+        <text name="easyDevControls_productionPointDebugTitle" text="Üretim Noktaları Hata Ayıklama"/>
+        <text name="easyDevControls_showTestAreasTitle" text="Test Alanlarını Göster"/>
+        <text name="easyDevControls_showPlacementCollisionsTitle" text="Yerleşim Çarpışmalarını Göster"/>
+        <text name="easyDevControls_removeAllPlaceablesTitle" text="Yerleştirelibiliri Kaldır"/>
+        <text name="easyDevControls_removeAllMapPlaceablesTitle" text="Haritadaki Yerleştirelebilirleri Kaldır"/>
+        <text name="easyDevControls_reloadPlaceableTitle" text="Tekrar Yükle %s"/>
+        <text name="easyDevControls_reloadClosestPlaceableTitle" text="En yakın Yeri Yeniden Yükle"/>
+        <text name="easyDevControls_reloadAllPlaceablesTitle" text="Tüm Yerleştirelebilirleri Yeniden Yükle"/>
+
+        <!-- Placeable Frame Info -->
+        <text name="easyDevControls_productionPointOwnerInfo" text="Changed %s %s to farm %s (%s) successfully."/>
+        <text name="easyDevControls_productionPointStateInfo" text="Changed %s %s to '%s' state successfully."/>
+        <text name="easyDevControls_productionPointDistributionInfo" text="Changed %s %s to distribution mode '%s' successfully."/>
+        <text name="easyDevControls_productionPointFillLevelInfo" text="Changed %s fill levels of '%s' on production point %s successfully."/>
+        <text name="easyDevControls_productionPointFillLevelAllInfo" text="Changed all %s fill levels on %s %s successfully."/>
+        <text name="easyDevControls_productionPointDistributingInfo" text="Distributing '%s' to the following production points:"/>
+        <text name="easyDevControls_reloadPlaceablesInfo" text="Successfully reloaded XML and I3D of %s %s."/>
+
+        <!-- Placeables Frame Help -->
+        <text name="easyDevControls_productionPointHelp" text="Allows the following changes to be made to the production points.
+
+Categories:
+  1. All NPC Owned
+  2. All Farm Owned
+  3. Current Production Player Trigger
+  4. Individual IDs
+
+Set Owner:
+  - Sets the current owner.
+
+Set State:
+  - Sets the individual or global operating states of each production line.
+
+Output Mode:
+  - Sets the individual or global output mode to either 'Distributing' | 'Storing' | 'Selling'.
+
+Fill Level:
+  - Allows fill level changes to be made to individual or all input / output products depending on the category type being used. Litres or Percent values can be entered depending on the selection."/>
+        <text name="easyDevControls_productionPointListHelp" text="Displays a list of production points on the map along with the following information."/>
+        <text name="easyDevControls_deliveryMappingHelp" text="Displays the current delivery mapping information for all distributing productions."/>
+        <text name="easyDevControls_productionPointDebugHelp" text="Displays production point debug information at each player trigger."/>
+        <text name="easyDevControls_showTestAreasHelp" text="Displays the test areas of all placeables."/>
+        <text name="easyDevControls_showPlacementCollisionsHelp" text="Displays the collisions for placement and ground levelling."/>
+        <text name="easyDevControls_removeAllPlaceablesHelp" text="Removes all standard removable placeables from the map."/>
+        <text name="easyDevControls_removeAllMapPlaceablesHelp" text="Removes all map bound placeables from the map including selling and buying points."/>
+        <text name="easyDevControls_reloadPlaceableHelp" text="Reloads the I3D and XML of the closest placeable within a 30 meter range of the player."/>
+        <text name="easyDevControls_reloadAllPlaceablesHelp" text="Reloads the I3D and XML of all placeables on the map."/>
+
+        <!-- Fields Frame XML -->
+        <text name="easyDevControls_fieldsHeader" text="Tarlalar / Tarım Arazileri"/>
+
+        <text name="easyDevControls_fieldSetFruitTitle" text="Ürün Ayarla"/>
+        <text name="easyDevControls_fieldSetGroundTitle" text="Tarla Zemini Ayarla"/>
+        <text name="easyDevControls_fieldIndexTitle" text="Tarla"/>
+        <text name="easyDevControls_fruitTypeTitle" text="Ürün"/>
+        <text name="easyDevControls_growthStateTitle" text="Büyüme"/>
+        <text name="easyDevControls_groundLayerTitle" text="Zemin Katmanı"/>
+        <text name="easyDevControls_fertilizerStateTitle" text="Gübre"/>
+        <text name="easyDevControls_plowingStateTitle" text="Sürülmüş"/>
+        <text name="easyDevControls_weedStateTitle" text="Yabani Ot"/>
+        <text name="easyDevControls_herbicideStateTitle" text="Herbist"/>
+        <text name="easyDevControls_limeStateTitle" text="Kireç"/>
+        <text name="easyDevControls_stonesStateTitle" text="Taşlar"/>
+        <text name="easyDevControls_rollerStateTitle" text="Sarma"/>
+        <text name="easyDevControls_stubbleStateTitle" text="Anız Kırma"/>
+        <text name="easyDevControls_buyFarmlandTitle" text="Tarım Arazisi Satın Al"/>
+        <text name="easyDevControls_groundTypeTitle" text="Zemin Tipi"/>
+        <text name="easyDevControls_angleTitle" text="Açı"/>
+        <text name="easyDevControls_removeFoliageTitle" text="Yaprakları Kaldır"/>
+        <text name="easyDevControls_vineSetStateTitle" text="Asma Durumunu Ayarla"/>
+        <text name="easyDevControls_vineUpdateVisualsTitle" text="Asma Görünümünü Güncelle"/>
+        <text name="easyDevControls_advanceGrowthTitle" text="Gelişmiş Büyüme"/>
+        <text name="easyDevControls_setGrowthPeriodTitle" text="Büyüme dönemini belirle"/>
+        <text name="easyDevControls_farmlandTitle" text="Tarım Arazisi"/>
+        <text name="easyDevControls_setFarmlandOwnerTitle" text="Tarım Arazisi Sahibini Ayarla"/>
+        <text name="easyDevControls_refreshFieldOverlayTitle" text="PDA alan yerleşimi"/>
+        <text name="easyDevControls_addRemoveWeedsStonesTitle" text="Taş &amp; Yabani Otlar"/> <!-- &amp;   This is equal to using the & symbol in XML-->
+        <text name="easyDevControls_debugFieldStatusTitle" text="Tarla Durumunda Hata Ayıklama"/>
+        <text name="easyDevControls_vineSystemDebugTitle" text="Hata Ayıklama Asma Sistemi"/>
+        <text name="easyDevControls_stoneSystemDebugTitle" text="Tarla Taşlarında Hata Ayıklama"/>
+
+        <!-- Fields Frame Info -->
+        <text name="easyDevControls_setAllFieldSuccessInfo" text="Updated %s fields successfully"/>
+        <text name="easyDevControls_setFieldSuccessInfo" text="Updated field %s successfully"/>
+        <text name="easyDevControls_setFieldFailedInfo" text="Updating of fields failed."/>
+
+        <text name="easyDevControls_advanceGrowthInfo" text="Growth on all fields has been advanced to the next stage."/>
+        <text name="easyDevControls_advanceGrowthWarning" text="Advancing growth stage is only available when the game setting '%s' is set to 'No'.
+
+Would you like to change your current setting from '%s' to 'No' so this action can be performed?"/> <!-- Translators: Space is intentional for easy reading -->
+        <text name="easyDevControls_setGrowthPeriodInfo" text="Growth period on all fields updated to %s (%s)."/>
+        <text name="easyDevControls_setGrowthPeriodWarning" text="Setting growth period is not available when the game setting '%s' is set to '%s'.
+
+Would you like to change your setting to 'No' so this action can be performed?"/> <!-- Translators: Space is intentional for easy reading -->
+        <text name="easyDevControls_addWeedOrStoneDelta" text="Increased %s delta by %s."/>
+        <text name="easyDevControls_removeWeedOrStoneDelta" text="Decreased %s delta by %s."/>
+        <text name="easyDevControls_vineSetStateInfo" text="Updated %s %s vines to growth state %s"/>
+        <text name="easyDevControls_vineUpdateVisualsInfo" text="Updated all vine visuals"/>
+        <text name="easyDevControls_setFarmlandOwnerAllInfo" text="Updated ownership of %s available farmlands to %s farm."/>
+        <text name="easyDevControls_setFarmlandOwnerInfo" text="Updated ownership of farmland %s to farm %s."/>
+        <text name="easyDevControls_refreshFieldOverlayInfo" text="Refreshing PDA field overlay and setting timer to %d seconds."/>
+        <text name="easyDevControls_debugFieldStatusInfo" text="Field status debugging %s."/>
+        <text name="easyDevControls_vineSystemDebugInfo" text="Vine system debugging %s."/>
+        <text name="easyDevControls_stoneSystemDebugInfo" text="Stone system debugging %s."/>
+
+        <!-- Fields Frame Help -->
+        <text name="easyDevControls_fieldSetFruitHelp" text="Allows the following changes to be made to the foliage of a selected field or all fields."/>
+        <text name="easyDevControls_fieldSetGroundHelp" text="Allows the following changes to be made to the ground of a selected field or all fields."/>
+        <text name="easyDevControls_fieldSetWarningHelp" text="Important: Fields are updated using the base field definitions. Extended or joined fields may be ignored or incomplete."/>
+        <text name="easyDevControls_vineSetStateHelp" text="Allows the growth stage of the selected vine type to be adjusted map wide."/>
+        <text name="easyDevControls_vineUpdateVisualsHelp" text="Forces an updates to all vine visuals."/>
+        <text name="easyDevControls_addRemoveWeedsHelp" text="Adjusts the current fields weed delta."/>
+        <text name="easyDevControls_addRemoveStonesHelp" text="Adjusts the current fields stone delta."/>
+        <text name="easyDevControls_advanceGrowthHelp" text="Advances growth on all foliage by one stage."/>
+        <text name="easyDevControls_setGrowthPeriodHelp" text="Forces growth on all foliage for the given growth period."/>
+        <text name="easyDevControls_setFarmlandOwnerHelp" text="Allows farmland ownership to be changed based on farmland ID." revision="fs25"/>
+        <text name="easyDevControls_refreshFieldOverlayHelp" text="Forces a refresh of field overlay data shown on the map."/>
+        <text name="easyDevControls_debugFieldStatusHelp" text="Displays all field status data at the given radius."/>
+        <text name="easyDevControls_vineSystemDebugHelp" text="Toggles the vine system debug view."/>
+        <text name="easyDevControls_stoneSystemDebugHelp" text="Toggles the stone system debug view."/>
+
+        <!-- Environment Frame XML -->
+        <text name="easyDevControls_environmentHeader" text="Çevre"/>
+
+        <text name="easyDevControls_setTimeTitle" text="Ayarlanan zaman"/>
+        <text name="easyDevControls_reloadedEnvironmentDataTitle" text="Ortamı Yeniden Yükle"/>
+        <text name="easyDevControls_reloadedWeatherDataTitle" text="Havayı Yeniden Yükle"/>
+        <text name="easyDevControls_setAddWeatherTitle" text="%s Hava Durumu"/>
+        <text name="easyDevControls_setAddWeatherHelpTitle" text="Hava Durumu Ayarla / Ekle"/>
+        <text name="easyDevControls_removeTireTracksTitle" text="Lastik İzlerini Kaldırın"/>
+        <text name="easyDevControls_weatherDebugTitle" text="Hava Durumu Hata Ayıklama"/>
+        <text name="easyDevControls_seasonalShaderDebugTitle" text="Mevsimsel Gölgelendirici Hata Ayıklama"/>
+        <text name="easyDevControls_environmentMaskDebugTitle" text="Ortam Maskesi Hata Ayıklama"/>
+        <text name="easyDevControls_randomWindWavingTitle" text="Rastgele Rüzgar"/>
+        <text name="easyDevControls_updateSnowTitle" text="Kar"/>
+        <text name="easyDevControls_addSnowTitle" text="Kar Ekle"/>
+        <text name="easyDevControls_setSnowTitle" text="Kar Ayarla"/>
+        <text name="easyDevControls_removeSnowTitle" text="Kar Kaldır"/>
+        <text name="easyDevControls_addSaltTitle" text="Tuz ekle"/>
+
+        <!-- Environment Frame Info -->
+        <text name="easyDevControls_setTimeInfo" text="Zaman ilerledi:  %s  |  %s"/>
+        <text name="easyDevControls_reloadedEnvironmentDataInfo" text="XML'den yeniden yüklenen tam ortam verileri '%s'"/>
+        <text name="easyDevControls_reloadedWeatherDataInfo" text="XML'den yeniden yüklenen hava durumu verileri '%s'"/>
+        <text name="easyDevControls_removeTireTracksInfo" text="yarıçapındaki tüm lastik izleri kaldırıldı %s oyuncunun etrafında"/>
+        <text name="easyDevControls_removeAllTireTracksInfo" text="Haritadaki tüm lastik izleri kaldırıldı"/>
+        <text name="easyDevControls_weatherDebugInfo" text="Hava durumu hata ayıklama şimdi %s"/>
+        <text name="easyDevControls_seasonalShaderDebugInfo" text="Mevsimsel gölgelendirici hata ayıklaması artık %s"/>
+        <text name="easyDevControls_environmentMaskDebugInfo" text="Ortam maskesi sistemi hata ayıklaması artık %s"/>
+        <text name="easyDevControls_randomWindWavingInfo" text="Rastgele rüzgar dalgası şimdi %s"/>
+        <text name="easyDevControls_addSnowInfo" text="Kar yüksekliği maksimum seviyeye ayarlandı"/>
+        <text name="easyDevControls_setSnowInfo" text="Kar yüksekliği değişti %s"/>
+        <text name="easyDevControls_removeSnowInfo" text="Tüm karı haritadan kaldırma"/>
+        <text name="easyDevControls_addSaltInfo" text="yarıçapında tuz ekle %d m"/>
+
+        <!-- Environment Frame Help -->
+        <text name="easyDevControls_setTimeHelp" text="Zamanın aya, aydaki günlere ve saate göre ilerlemesine izin verir.
+
+NOT: Bu işlem sırasında güncelleme değişikliği dinleyicileri aranmaz ve bazı mevsimsel değişiklikler yalnızca gün değişiminde gerçekleşir."/> <!-- Translators: Space is intentional for easy reading -->
+        <text name="easyDevControls_reloadedEnvironmentDataHelp" text="Tüm ortamı XML dosyasından yeniden yükler. Bu, harita testi sırasında oyunun yeniden başlatılmasına gerek kalmadan değişikliklerin yapılmasına ve görüntülenmesine olanak tanır."/>
+
+        <text name="easyDevControls_reloadedWeatherDataHelp" text="Hava durumunu yalnızca XML dosyasından yeniden yükler. Bu, harita testi sırasında oyunun yeniden başlatılmasına gerek kalmadan değişikliklerin yapılmasına ve görüntülenmesine olanak tanır."/>
+        <text name="easyDevControls_setAddWeatherHelp" text="Belirli bir hava tipinin eklenmesine veya hemen ayarlanmasına izin verir. Hava durumu türleri ve varyasyonları mevcut sezona göre değişecektir."/>
+        <text name="easyDevControls_removeTireTracksHelp" text="Belirli bir yarıçaptaki lastik izlerini yerden kaldırır."/>
+        <text name="easyDevControls_weatherDebugHelp" text="Mevcut hava durumu verilerini içeren bir tablo görüntüler."/>
+        <text name="easyDevControls_seasonalShaderDebugHelp" text="Mevcut mevsimsel gölgelendirici (cshared3) parametre değerini gösterir."/>
+        <text name="easyDevControls_environmentMaskDebugHelp" text="Ortam maskesi hata ayıklama değerlerini ve durumlarını görüntüler."/>
+        <text name="easyDevControls_randomWindWavingHelp" text="Rastgele rüzgar hızı özelliğini değiştirir."/>
+        <text name="easyDevControls_addSnowHelp" text="Haritaya bir kat kar ekler."/>
+        <text name="easyDevControls_setSnowHelp" text="Verilen kar seviyesini ayarlar. Aralık: -4 > 0.5"/>
+        <text name="easyDevControls_removeSnowHelp" text="Haritadaki tüm zemin karını kaldırır."/>
+        <text name="easyDevControls_addSaltHelp" text="Oyuncunun belirlediği yarıçapda tuz ekler."/>
+
+        <!-- Permissions Frame XML -->
+        <text name="easyDevControls_permissionsHeader" text="İzinler"/>
+        <text name="easyDevControls_permissionsToolTip" text="%s özelliğine erişmek için gereken minimum oyuncu izin düzeyi."/>
+        <text name="easyDevControls_savingFailed" text="Kaydetme başarısız!"/>
+
+        <!-- Permissions Frame Help -->
+        <text name="easyDevControls_permissionsHelp" text="Bu sayfada admin, oyuncuların aşağıdaki komutlara erişmek için ihtiyaç duyduğu izin seviyesini tanımlayabilir."/>
+
+        <!-- Extra Headers -->
+        <text name="easyDevControls_helpHeader" text="Yardım"/>
+        <text name="easyDevControls_aboutHeader" text="Hakkında"/>
+
+        <text name="easyDevControls_aboutInfo" text="Easy Development Controls is designed as a testing tool for modders, mappers and content creators. It can also assist with gameplay setups or however you wish to play the game.
+
+It includes some features available already through the game console commands but now easily accessible and also the addition of many new features.
+
+Most features support use in Multiplayer and permission levels of some commands can also be adjusted. This now also includes existing console commands that previously only worked for the host.
+
+Some quality of life features have also been added as follows.
+
+ - Teleport: Quickly move yourself or vehicles around the map by selecting a location on the map, by field number or x/z coordinates.
+ - Flip Vehicles: Allows a user to easily correct upright rotation of a vehicle.
+ - Super Strength: Increases a players carrying capacity and pickup range.
+ - Hud Visibility: Shows and hides the whole hud, you can also activate a key binding for faster access.
+ - Show Bale Locations: This will display all farm owned bales on the map.
+ - Show Pallet Locations: This will display all farm owned pallets on the map.
+ - Advance Growth: Advances all crops to the next growth stage.
+
+With the extended number of features plus many new features planned, Easy Development Controls has something for everyone."/>
+    </texts>
+</l10n>
