@@ -26,89 +26,89 @@
 
     <texts>
         <!-- Inputs (FS25) -->
-        <text name="input_EDC_SUPER_STRENGTH" text="Toggle super strength" revision="fs25"/>
+        <text name="input_EDC_SUPER_STRENGTH" text="Přepnout super sílu" revision="fs25"/>
 
         <!-- First Load Info (FS25) -->
-        <text name="easyDevControls_firstLoadInfo" text="Don't know how to do something?
-Check the Help section in the Easy Development Controls menu.
+        <text name="easyDevControls_firstLoadInfo" text="Nevíte, jak něco udělat?
+Podívejte se do nápovědy v nabídce Easy Development Controls.
 
-All input bindings can be configured via the In-Game menu controls screen." revision="fs25"/>
+Všechny vstupní vazby lze nakonfigurovat prostřednictvím obrazovky ovládacích prvků v nabídce menu." revision="fs25"/>
 
         <!-- Misc (FS25) -->
-        <text name="easyDevControls_resetPageSuccess" text="Page commands have been reset..." revision="fs25"/>
+        <text name="easyDevControls_resetPageSuccess" text="Příkazy stránky byly resetovány..." revision="fs25"/>
         <text name="easyDevControls_squareMeterShort" text="m²" revision="fs25"/>
-        <text name="easyDevControls_typeTree" text="tree" revision="fs25"/>
-        <text name="easyDevControls_typeTrees" text="trees" revision="fs25"/>
-        <text name="easyDevControls_placeholderEnterAmount" text="Enter Amount" revision="fs25"/>
-        <text name="easyDevControls_placeholderEnterCoordinates" text="Enter Coordinates" revision="fs25"/>
-        <text name="easyDevControls_decoration" text="Decoration" revision="fs25"/>
-        <text name="easyDevControls_dense" text="Dense" revision="fs25"/>
-        <text name="easyDevControls_ridgeSown" text="Ridge Sown" revision="fs25"/>
-        <text name="easyDevControls_currentValue" text="Current: %s" revision="fs25"/>
-        <text name="easyDevControls_noTrigger" text="No Trigger" revision="fs25"/>
-        <text name="easyDevControls_verbose" text="Verbose" revision="fs25"/>
-        <text name="easyDevControls_blocked" text="Blocked" revision="fs25"/>
-        <text name="easyDevControls_weatherTypePartiallyCloudy" text="Partially Cloudy" revision="fs25"/>
-        <text name="easyDevControls_weatherTypeHail" text="Hail" revision="fs25"/>
-        <text name="easyDevControls_weatherTypeTwister" text="Twister" revision="fs25"/>
-        <text name="easyDevControls_weatherTypeThunder" text="Thunder" revision="fs25"/>
+        <text name="easyDevControls_typeTree" text="strom" revision="fs25"/>
+        <text name="easyDevControls_typeTrees" text="stromy" revision="fs25"/>
+        <text name="easyDevControls_placeholderEnterAmount" text="Zadat částku" revision="fs25"/>
+        <text name="easyDevControls_placeholderEnterCoordinates" text="Zadat souřadnice" revision="fs25"/>
+        <text name="easyDevControls_decoration" text="Dekorace" revision="fs25"/>
+        <text name="easyDevControls_dense" text="Hustý" revision="fs25"/>
+        <text name="easyDevControls_ridgeSown" text="Osetý hřeben" revision="fs25"/>
+        <text name="easyDevControls_currentValue" text="Aktuální: %s" revision="fs25"/>
+        <text name="easyDevControls_noTrigger" text="Žádný triger" revision="fs25"/>
+        <text name="easyDevControls_verbose" text="Podrobný" revision="fs25"/>
+        <text name="easyDevControls_blocked" text="Zablokovaný" revision="fs25"/>
+        <text name="easyDevControls_weatherTypePartiallyCloudy" text="Částečně zataženo" revision="fs25"/>
+        <text name="easyDevControls_weatherTypeHail" text="Kroupy" revision="fs25"/>
+        <text name="easyDevControls_weatherTypeTwister" text="Tornádo" revision="fs25"/>
+        <text name="easyDevControls_weatherTypeThunder" text="Hrom" revision="fs25"/>
 
         <!-- General Frame (FS25) -->
-        <text name="easyDevControls_setFovCurrentAngleInfo" text="Current: %d°" revision="fs25"/>
+        <text name="easyDevControls_setFovCurrentAngleInfo" text="Aktuální: %d°" revision="fs25"/>
 
         <!-- Player Frame (FS25) -->
-        <text name="easyDevControls_superStrengthKeyTitle" text="Super Strength Input" revision="fs25"/>
-        <text name="easyDevControls_superStrengthKeyInfo" text="Super Strength input (%s) %s" revision="fs25"/>
-        <text name="easyDevControls_superStrengthKeyHelp" text="Enables / Disables the Super Strength input binding." revision="fs25"/>
-        <text name="easyDevControls_jumpDelayTitle" text="Jump Delay" revision="fs25"/>
-        <text name="easyDevControls_jumpDelayInfo" text="Jump delay state: %s" revision="fs25"/>
-        <text name="easyDevControls_jumpDelayHelp" text="Sets player jump delay in seconds." revision="fs25"/>
-        <text name="easyDevControls_noClipTitle" text="No Clip" revision="fs25"/>
-        <text name="easyDevControls_noClipHelp" text="Disables player collisions." revision="fs25"/>
-        <text name="easyDevControls_playerDebugInitialisationTitle" text="Debug Initialisation" revision="fs25"/>
-        <text name="easyDevControls_playerDebugHandToolsTitle" text="Debug Hand Tools" revision="fs25"/>
-        <text name="easyDevControls_playerDebugNetworkTitle" text="Debug Network" revision="fs25"/>
-        <text name="easyDevControls_playerDebugGraphicsTitle" text="Debug Graphics" revision="fs25"/>
-        <text name="easyDevControls_playerDebugStateTitle" text="Debug State" revision="fs25"/>
-        <text name="easyDevControls_playerDebugMovementTitle" text="Debug Movement" revision="fs25"/>
-        <text name="easyDevControls_playerDebugInputTitle" text="Debug Input" revision="fs25"/>
-        <text name="easyDevControls_playerDebugDisplayInfo" text="Player debug flag %s is now %s." revision="fs25"/>
-        <text name="easyDevControls_playerDebugDisplayHelp" text="Enables / Disables the %s debug flag." revision="fs25"/>
+        <text name="easyDevControls_superStrengthKeyTitle" text="Klávesa pro Super sílu" revision="fs25"/>
+        <text name="easyDevControls_superStrengthKeyInfo" text="Klávesa pro Super sílu (%s) %s" revision="fs25"/>
+        <text name="easyDevControls_superStrengthKeyHelp" text="Zapíná/vypíná přiřazení klávesy prvku Super síla." revision="fs25"/>
+        <text name="easyDevControls_jumpDelayTitle" text="Zpoždění skoku" revision="fs25"/>
+        <text name="easyDevControls_jumpDelayInfo" text="Stav zpoždění skoku: %s" revision="fs25"/>
+        <text name="easyDevControls_jumpDelayHelp" text="Nastaví zpoždění skoku hráče v sekundách." revision="fs25"/>
+        <text name="easyDevControls_noClipTitle" text="Bez kolize" revision="fs25"/>
+        <text name="easyDevControls_noClipHelp" text="Zakáže kolize hráčů." revision="fs25"/>
+        <text name="easyDevControls_playerDebugInitialisationTitle" text="Spuštění ladění" revision="fs25"/>
+        <text name="easyDevControls_playerDebugHandToolsTitle" text="Ladění ručních nástrojů" revision="fs25"/>
+        <text name="easyDevControls_playerDebugNetworkTitle" text="Ladění sítě" revision="fs25"/>
+        <text name="easyDevControls_playerDebugGraphicsTitle" text="Ladění grafiky" revision="fs25"/>
+        <text name="easyDevControls_playerDebugStateTitle" text="Stav ladění" revision="fs25"/>
+        <text name="easyDevControls_playerDebugMovementTitle" text="Ladění pohybu" revision="fs25"/>
+        <text name="easyDevControls_playerDebugInputTitle" text="Ladění vstupu" revision="fs25"/>
+        <text name="easyDevControls_playerDebugDisplayInfo" text="Příznak ladění hráče %s je nyní %s." revision="fs25"/>
+        <text name="easyDevControls_playerDebugDisplayHelp" text="Povoluje/zakazuje příznak ladění %s." revision="fs25"/>
 
         <!-- Objects Frame (FS25) -->
-        <text name="easyDevControls_numObjectsHelp" text="Displays the number of %s on the map and any limits when applicable." revision="fs25"/>
-        <text name="easyDevControls_plantTreeTitle" text="Plant Tree" revision="fs25"/>
-        <text name="easyDevControls_plantTreeInfo" text="Tree has been planted." revision="fs25"/>
-        <text name="easyDevControls_plantTreeHelp" text="Plants the selected tree type in front of the player.  Warning: No collision checks are executed, make sure the area in front of the player is clear!" revision="fs25"/>
-        <text name="easyDevControls_growthStage" text="Growth Stage %d" revision="fs25"/>
-        <text name="easyDevControls_splitShapesTitle" text="Split Shapes" revision="fs25"/>
-        <text name="easyDevControls_removeAllSplitShapesTitle" text="Remove Split Shapes" revision="fs25"/>
-        <text name="easyDevControls_showCollisionsInfo" text="Enable debug view (F5) to render collision information." revision="fs25"/>
+        <text name="easyDevControls_numObjectsHelp" text="Zobrazí počet %s na mapě a případná omezení." revision="fs25"/>
+        <text name="easyDevControls_plantTreeTitle" text="Zasadit Strom" revision="fs25"/>
+        <text name="easyDevControls_plantTreeInfo" text="Strom byl zasazen." revision="fs25"/>
+        <text name="easyDevControls_plantTreeHelp" text="Zasadí vybraný typ stromu před hráče.  Upozornění: Ujistěte se, že oblast před hráčem je volná!" revision="fs25"/>
+        <text name="easyDevControls_growthStage" text="Fáze růstu %d" revision="fs25"/>
+        <text name="easyDevControls_splitShapesTitle" text="Rozdělené tvary" revision="fs25"/>
+        <text name="easyDevControls_removeAllSplitShapesTitle" text="Odebrat rozdělené tvary" revision="fs25"/>
+        <text name="easyDevControls_showCollisionsInfo" text="Povolte zobrazení ladění (F5) pro zobrazení informací o kolizích." revision="fs25"/>
 
         <!-- Vehicles Frame (FS25) -->
-        <text name="easyDevControls_vehicleWetness" text="Wetness" revision="fs25"/>
+        <text name="easyDevControls_vehicleWetness" text="Vlhkost" revision="fs25"/>
 
         <!-- Placeables Frame (FS25) -->
-        <text name="easyDevControls_tipToTriggerSuccess" text="Tipped %s to trigger." revision="fs25"/>
+        <text name="easyDevControls_tipToTriggerSuccess" text="Nasypáno %s do trigeru." revision="fs25"/>
 
         <!-- Farmlands Frame (FS25) -->
-        <text name="easyDevControls_clearHeightTypesTitle" text="Clear Height Types" revision="fs25"/>
-        <text name="easyDevControls_setRiceFieldTitle" text="Set Rice Field" revision="fs25"/>
-        <text name="easyDevControls_setRiceFieldHelp" text="Allows the following changes to be made to the rice field in range." revision="fs25"/>
+        <text name="easyDevControls_clearHeightTypesTitle" text="Vyčistit výškové typy" revision="fs25"/>
+        <text name="easyDevControls_setRiceFieldTitle" text="Nastavit rýžové pole" revision="fs25"/>
+        <text name="easyDevControls_setRiceFieldHelp" text="Umožňuje provést následující změny na rýžovém poli v dosahu." revision="fs25"/>
 
         <!-- Environment Frame (FS25) -->
-        <text name="easyDevControls_tireTrackDebugTitle" text="Tyre Track Debug" revision="fs25"/>
-        <text name="easyDevControls_tireTrackDebugHelp" text="Enables / Disables the tyre track debug mode with permanently active and coloured tracks." revision="fs25"/>
+        <text name="easyDevControls_tireTrackDebugTitle" text="Ladění stop pneumatik" revision="fs25"/>
+        <text name="easyDevControls_tireTrackDebugHelp" text="Povoluje/zakazuje režim ladění stop pneumatik s trvale aktivními a barevnými stopami." revision="fs25"/>
 
         <!-- Permissions Frame (FS25) -->
-        <text name="easyDevControls_adminLogin" text="Log in as EDC admin" revision="fs25"/>
-        <text name="easyDevControls_adminLogout" text="Logout as EDC admin" revision="fs25"/>
-        <text name="easyDevControls_changePassword" text="Change EDC admin password" revision="fs25"/>
-        <text name="easyDevControls_passwordChanged" text="Password changed: %s" revision="fs25"/>
-        <text name="easyDevControls_passwordInvalid" text="Invalid password combination / characters, please try again." revision="fs25"/>
-        <text name="easyDevControls_loggedIn" text="Logged in: %s" revision="fs25"/>
-        <text name="easyDevControls_loggedOut" text="Logged out: %s" revision="fs25"/>
-		<text name="easyDevControls_singlePlayerOnly" text="Single Player Only" revision="fs25"/>
+        <text name="easyDevControls_adminLogin" text="Přihlásit se jako administrátor EDC" revision="fs25"/>
+        <text name="easyDevControls_adminLogout" text="Odhlásit se jako administrátor EDC" revision="fs25"/>
+        <text name="easyDevControls_changePassword" text="Změna hesla správce EDC" revision="fs25"/>
+        <text name="easyDevControls_passwordChanged" text="Heslo změněno: %s" revision="fs25"/>
+        <text name="easyDevControls_passwordInvalid" text="Nesprávná kombinace hesel/znaků, zkuste to prosím znovu." revision="fs25"/>
+        <text name="easyDevControls_loggedIn" text="Přihlášen: %s" revision="fs25"/>
+        <text name="easyDevControls_loggedOut" text="Odhlášen: %s" revision="fs25"/>
+		<text name="easyDevControls_singlePlayerOnly" text="Pouze pro jednoho hráče" revision="fs25"/>
 
         <!-- Inputs -->
         <text name="input_EDC_SHOW_UI" text="Otevřít nabídku"/>
@@ -378,7 +378,7 @@ Poznámka: Funkce je dostupná pouze pro 'Master Users / Admin'!"/>
         <text name="easyDevControls_jumpMultiplierHelp" text="Zvyšuje výšku skoku hráče přidáním vybraného multiplikátoru."/>
         <text name="easyDevControls_thirdPersonViewHelp" text="Přepíná pohled hráče z třetí osoby.
 
-Poznámka: Tento režim je určen pro snímky obrazovky a ne všechny herní funkce, jako je 'Hand Tools', budou fungovat správně, pokud jsou povoleny."/>
+Poznámka: Tento režim je určen pro snímky obrazovky a ne všechny herní funkce, jako jsou 'Ruční nástroje', budou fungovat správně, pokud jsou povoleny."/>
 
         <!-- Translators: Prostor je záměrný pro snadné čtení -->
         <text name="easyDevControls_woodCuttingMarkerHelp" text="Přepíná viditelnost značky pro řezání dřeva motorovou pilou."/>
@@ -392,7 +392,7 @@ Poznámka: Tento režim je určen pro snímky obrazovky a ne všechny herní fun
         <text name="easyDevControls_playerFsmStateJumpDebugHelp" text="Přepíná informace o ladění stroje o stavu skoku hráče. Výška / trvání skoku bude vytištěno do souboru protokolu."/>
 
         <!-- Objektový rámec XML -->
-        <text name="easyDevControls_objectsHeader" text="Objekty / typy výplní"/>
+        <text name="easyDevControls_objectsHeader" text="Objekty/typy výplní"/>
 
         <text name="easyDevControls_addBaleTitle" text="Přidat balík"/>
         <text name="easyDevControls_availableBaleTypesTitle" text="Dostupné typy balíků"/>
