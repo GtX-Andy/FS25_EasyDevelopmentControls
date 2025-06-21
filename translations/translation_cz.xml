@@ -59,7 +59,7 @@ Všechny vstupní vazby lze nakonfigurovat prostřednictvím obrazovky ovládac�
         <!-- Player Frame (FS25) -->
         <text name="easyDevControls_superStrengthKeyTitle" text="Klávesa pro Super sílu" revision="fs25"/>
         <text name="easyDevControls_superStrengthKeyInfo" text="Klávesa pro Super sílu (%s) %s" revision="fs25"/>
-        <text name="easyDevControls_superStrengthKeyHelp" text="Zapíná/vypíná přiřazení klávesy prvku Super síla." revision="fs25"/>
+        <text name="easyDevControls_superStrengthKeyHelp" text="Zapíná / vypíná přiřazení klávesy prvku Super síla." revision="fs25"/>
         <text name="easyDevControls_jumpDelayTitle" text="Zpoždění skoku" revision="fs25"/>
         <text name="easyDevControls_jumpDelayInfo" text="Stav zpoždění skoku: %s" revision="fs25"/>
         <text name="easyDevControls_jumpDelayHelp" text="Nastaví zpoždění skoku hráče v sekundách." revision="fs25"/>
@@ -73,11 +73,11 @@ Všechny vstupní vazby lze nakonfigurovat prostřednictvím obrazovky ovládac�
         <text name="easyDevControls_playerDebugMovementTitle" text="Ladění pohybu" revision="fs25"/>
         <text name="easyDevControls_playerDebugInputTitle" text="Ladění vstupu" revision="fs25"/>
         <text name="easyDevControls_playerDebugDisplayInfo" text="Příznak ladění hráče %s je nyní %s." revision="fs25"/>
-        <text name="easyDevControls_playerDebugDisplayHelp" text="Povoluje/zakazuje příznak ladění %s." revision="fs25"/>
+        <text name="easyDevControls_playerDebugDisplayHelp" text="Povoluje / zakazuje příznak ladění %s." revision="fs25"/>
 
         <!-- Objects Frame (FS25) -->
         <text name="easyDevControls_numObjectsHelp" text="Zobrazí počet %s na mapě a případná omezení." revision="fs25"/>
-        <text name="easyDevControls_plantTreeTitle" text="Zasadit Strom" revision="fs25"/>
+        <text name="easyDevControls_plantTreeTitle" text="Zasadit strom" revision="fs25"/>
         <text name="easyDevControls_plantTreeInfo" text="Strom byl zasazen." revision="fs25"/>
         <text name="easyDevControls_plantTreeHelp" text="Zasadí vybraný typ stromu před hráče.  Upozornění: Ujistěte se, že oblast před hráčem je volná!" revision="fs25"/>
         <text name="easyDevControls_growthStage" text="Fáze růstu %d" revision="fs25"/>
@@ -98,7 +98,7 @@ Všechny vstupní vazby lze nakonfigurovat prostřednictvím obrazovky ovládac�
 
         <!-- Environment Frame (FS25) -->
         <text name="easyDevControls_tireTrackDebugTitle" text="Ladění stop pneumatik" revision="fs25"/>
-        <text name="easyDevControls_tireTrackDebugHelp" text="Povoluje/zakazuje režim ladění stop pneumatik s trvale aktivními a barevnými stopami." revision="fs25"/>
+        <text name="easyDevControls_tireTrackDebugHelp" text="Povoluje / zakazuje režim ladění stop pneumatik s trvale aktivními a barevnými stopami." revision="fs25"/>
 
         <!-- Permissions Frame (FS25) -->
         <text name="easyDevControls_adminLogin" text="Přihlásit se jako administrátor EDC" revision="fs25"/>
@@ -287,10 +287,10 @@ Pro dosažení nejlepších výsledků se ujistěte, že je vozidlo umístěno n
         <text name="easyDevControls_hudInputTitle" text="Vstup HUD"/>
         <text name="easyDevControls_teleportTitle" text="Teleportovat"/>
         <text name="easyDevControls_teleportFormatedTitle" text="Teleportovat %s"/>
-        <text name="easyDevControls_teleportMapSelect" text="Výběr mapy"/>
+        <text name="easyDevControls_teleportMapSelect" text="Výběr na mapě"/>
         <text name="easyDevControls_flipVehiclesTitle" text="Otočení vozidel"/>
         <text name="easyDevControls_deleteObjectsKeyTitle" text="Vstup mazání objektů"/>
-        <text name="easyDevControls_setFOVAngleTitle" text="Nastavte úhel FOV"/>
+        <text name="easyDevControls_setFOVAngleTitle" text="Nastavit úhel FOV"/>
         <text name="easyDevControls_setQualityTitle" text="Nastavit kvalitu grafiky"/>
         <text name="easyDevControls_extraTimescalesTitle" text="Extra časové osy"/>
         <text name="easyDevControls_stopTimeTitle" text="Zastavit čas"/>
@@ -301,13 +301,13 @@ Pro dosažení nejlepších výsledků se ujistěte, že je vozidlo umístěno n
         <!-- General Frame Info -->
         <text name="easyDevControls_addMoneyInfo" text="Přidáno %s na účet farmy."/>
         <text name="easyDevControls_removeMoneyInfo" text="Odebráno %s z účtu farmy."/>
-        <text name="easyDevControls_setMoneyInfo" text="Nastavte zůstatek účtu farmy na %s."/>
+        <text name="easyDevControls_setMoneyInfo" text="Nastavit zůstatek účtu farmy na %s."/>
         <text name="easyDevControls_flightModeToggleInfo" text="Letový režim: %s"/>
         <text name="easyDevControls_flightModeStateOffInfo" text="Letový stav: %s"/>
         <text name="easyDevControls_flightModeStateOnInfo" text="Letový stav: %s  (Změňte nadmořskou výšku pomocí kláves Q a E)"/>
         <text name="easyDevControls_hudVisibilityInfo" text="Viditelnost HUD: %s"/>
         <text name="easyDevControls_hudInputOffInfo" text="Vazba vstupu HUD vypnuta"/>
-        <text name="easyDevControls_hudInputOnInfo" text="Vazba vstupu Hud zapnuta (přepnout viditelnost hud pomocí vstupu '%s')"/>
+        <text name="easyDevControls_hudInputOnInfo" text="Vazba vstupu HUD zapnuta (přepnout viditelnost HUD pomocí vstupu '%s')"/>
         <text name="easyDevControls_teleportPlayerFieldInfo" text="Hráč byl úspěšně přesunut na pole %s." revision="fs25"/> <!-- field > farmland -->
         <text name="easyDevControls_teleportVehiclesFieldInfo" text="Vozidlo %s úspěšně přesunuto na pole %s." revision="fs25"/> <!-- field > farmland -->
         <text name="easyDevControls_teleportPlayerInfo" text="Přesunutí hráče na souřadnice %s, %s proběhlo úspěšně."/>
@@ -326,11 +326,11 @@ Pro dosažení nejlepších výsledků se ujistěte, že je vozidlo umístěno n
         <text name="easyDevControls_addMoneyHelp" text="Přidá peníze k zůstatku vašeho účtu na farmě."/>
         <text name="easyDevControls_removeMoneyHelp" text="Odebere peníze ze zůstatku vašeho účtu na farmě."/>
         <text name="easyDevControls_setMoneyHelp" text="Nastaví zůstatek účtu vaší farmy na danou hodnotu."/>
-        <text name="easyDevControls_flightModeToggleHelp" text="Přepíná režim ladění letu přehrávače."/>
-        <text name="easyDevControls_flightModeStateHelp" text="K dispozici pouze v případě, že je povolen 'Flight Mode', tuto funkci lze také přepínat ve hře pomocí klávesy J. Jakmile je aktivní, lze výšku hráče změnit pomocí kláves Q a E"/>
-        <text name="easyDevControls_hudVisibilityHelp" text="Nastavuje viditelnost hud."/>
-        <text name="easyDevControls_hudInputHelp" text="Přepíná dostupnost vazby vstupu 'Toggle hud'."/>
-        <text name="easyDevControls_teleportHelp" text="Teleportujte hráče, zadaná vozidla nebo vozidlo v dosahu hráče do vybraného bodu na mapě, středu pole nebo na danou pozici x / z."/>
+        <text name="easyDevControls_flightModeToggleHelp" text="Přepíná režim ladění letu hráče."/>
+        <text name="easyDevControls_flightModeStateHelp" text="K dispozici pouze v případě, že je povolen 'Letový režim', tuto funkci lze také přepínat ve hře pomocí klávesy J. Jakmile je aktivní, lze výšku hráče změnit pomocí kláves Q a E"/>
+        <text name="easyDevControls_hudVisibilityHelp" text="Nastavuje viditelnost HUD."/>
+        <text name="easyDevControls_hudInputHelp" text="Přepíná dostupnost vazby vstupu 'Toggle HUD'."/>
+        <text name="easyDevControls_teleportHelp" text="Teleportujte hráče, zadaná vozidla nebo vozidlo v dosahu hráče do vybraného bodu na mapě, středu pole nebo na danou pozici x/z."/>
         <text name="easyDevControls_flipVehiclesHelp" text="Pokusy o správnou orientaci vozidla a orientaci jakéhokoli připojeného nářadí. Tato operace je dostupná pro zadaná vozidla nebo při pohledu na platné vozidlo."/>
         <text name="easyDevControls_deleteObjectsKeyHelp" text="Přepíná dostupnost vstupní vazby 'Delete Objects'. To umožňuje hráči smazat strom, kládu, pařez, balík, paletu nebo vozidlo, které si prohlíží. Informace o stromech a pařezech se také zobrazí, když je aktivní.
 
@@ -350,7 +350,7 @@ Poznámka: Funkce je dostupná pouze pro 'Master Users / Admin'!"/>
         <text name="easyDevControls_jumpMultiplierTitle" text="Násobitel skoků"/>
         <text name="easyDevControls_thirdPersonViewTitle" text="Pohled ze třetí osoby"/>
         <text name="easyDevControls_woodCuttingMarkerTitle" text="Značka na řezání dřeva"/>
-        <text name="easyDevControls_aimOverlayTitle" text="Značka cíle"/>
+        <text name="easyDevControls_aimOverlayTitle" text="Zaměřovač"/>
         <text name="easyDevControls_runSpeedTitle" text="Multiplikátor běhu"/>
         <text name="easyDevControls_runSpeedKeyTitle" text="Spuštění multiplikátoru klávesou"/>
         <text name="easyDevControls_setFarmTitle" text="Nastavit farmu"/>
@@ -364,7 +364,7 @@ Poznámka: Funkce je dostupná pouze pro 'Master Users / Admin'!"/>
         <text name="easyDevControls_jumpMultiplierInfo" text="Stav multiplikátoru skoku: %s"/>
         <text name="easyDevControls_thirdPersonViewInfo" text="Pohled třetí osoby hráče %s"/>
         <text name="easyDevControls_woodCuttingMarkerInfo" text="Značka na řezání dřeva %s"/>
-        <text name="easyDevControls_aimOverlayInfo" text="Značka cíle %s"/>
+        <text name="easyDevControls_aimOverlayInfo" text="Zaměřovač %s"/>
         <text name="easyDevControls_runSpeedInfo" text="Násobič rychlosti běhu nastaven na %s"/>
         <text name="easyDevControls_runSpeedStateInfo" text="Zvýšená rychlost běhu %s"/>
         <text name="easyDevControls_runSpeedKeyInfo" text="Klávesa rychlosti běhu (%s) %s"/>
@@ -373,7 +373,7 @@ Poznámka: Funkce je dostupná pouze pro 'Master Users / Admin'!"/>
         <text name="easyDevControls_playerFsmDebugInfo" text="Ladění stroje ve stavu hráče %s"/>
         <text name="easyDevControls_playerFsmStateJumpDebugInfo" text="Ladění stavu skoku hráče %s"/>
 
-        <!-- Nápověda k rámečku přehrávače -->
+        <!-- Nápověda k rámečku hráče -->
         <text name="easyDevControls_superStrengthHelp" text="Přepíná funkci super síly a rozšiřuje dosah hráče."/>
         <text name="easyDevControls_jumpMultiplierHelp" text="Zvyšuje výšku skoku hráče přidáním vybraného multiplikátoru."/>
         <text name="easyDevControls_thirdPersonViewHelp" text="Přepíná pohled hráče z třetí osoby.
@@ -382,7 +382,7 @@ Poznámka: Tento režim je určen pro snímky obrazovky a ne všechny herní fun
 
         <!-- Translators: Prostor je záměrný pro snadné čtení -->
         <text name="easyDevControls_woodCuttingMarkerHelp" text="Přepíná viditelnost značky pro řezání dřeva motorovou pilou."/>
-        <text name="easyDevControls_aimOverlayHelp" text="Přepíná viditelnost značky cíle."/>
+        <text name="easyDevControls_aimOverlayHelp" text="Přepíná viditelnost zaměřovače ve středu obrazovky."/>
         <text name="easyDevControls_runSpeedHelp" text="Nastaví násobitel, který bude použit, když je 'Zvýšená rychlost běhu' nastavena na 'Zapnuto'."/>
         <text name="easyDevControls_runSpeedStateHelp" text="Přepíná stav rychlosti běhu. Když je 'Vypnuto', hráč bude chodit a běžet výchozí rychlostí."/>
         <text name="easyDevControls_runSpeedKeyHelp" text="Přepíná dostupnost vazby vstupu 'Zvýšená rychlost běhu'."/>
@@ -428,19 +428,19 @@ Poznámka: Tento režim je určen pro snímky obrazovky a ne všechny herní fun
         <text name="easyDevControls_showPalletLocationsHelp" text="Zobrazí všechny palety vlastněné farmou jako aktivní body na mapě."/>
         <text name="easyDevControls_addPalletHelp" text="Přidá vybraný typ palety před hráče."/>
         <text name="easyDevControls_addLogHelp" text="Přidá vybraný typ kmenu a danou délku před hráče."/>
-        <text name="easyDevControls_tipToTriggerHelp" text="Vysype produkt ke bodu, na kterém hráč právě stojí."/>
+        <text name="easyDevControls_tipToTriggerHelp" text="Vysype produkt na bod, na kterém hráč právě stojí."/>
         <text name="easyDevControls_tipToGroundHelp" text="Vyklopí dané množství fillType na zem v délce 1 > 25 metrů."/>
         <text name="easyDevControls_clearTipAreaHelp" text="Vymaže 'všechny' nebo 'vybrané' fillType ze země v daném poloměru."/>
         <text name="easyDevControls_showTipCollisionsHelp" text="Zobrazuje následující kolize se zemí.
-Green: Bit Vectors &lt;= 0
-Blue: Bit Vectors &gt; 0 or &lt;= 1
-Red: Bit Vectors &gt; 1"/>
+Zelená: Bit Vectors &lt;= 0
+Modrá: Bit Vectors &gt; 0 or &lt;= 1
+Červená: Bit Vectors &gt; 1"/>
 
         <!-- Překladatelé: Prostor je záměrný pro snadné čtení. Viz poznámka v horní části stránky týkající se &gt; a &lt; použití -->
         <text name="easyDevControls_removeAllBalesHelp" text="Odstraní všechny balíky z mapy!"/>
         <text name="easyDevControls_removeAllPalletsHelp" text="Odstraní všechny palety z mapy!"/>
-        <text name="easyDevControls_removeAllLogsHelp" text="Odstraní všechny protokoly z mapy!"/>
-        <text name="easyDevControls_removeAllStumpsHelp" text="Odstraní z mapy všechny pažezy!"/>
+        <text name="easyDevControls_removeAllLogsHelp" text="Odstraní všechny klády z mapy!"/>
+        <text name="easyDevControls_removeAllStumpsHelp" text="Odstraní všechny pařezy z mapy!"/>
 
         <!-- XML ​​rámu vozidla -->
         <text name="easyDevControls_vehiclesHeader" text="Vozidla"/>
@@ -512,7 +512,7 @@ Stavy 1 až 10: Specifické stavy vozidla pro testování."/>
         <text name="easyDevControls_fillUnitFillLevelHelp" text="Aktualizuje fillUnit s danou úrovní naplnění a fillType."/>
 
         <!-- Umístěný rámeček XML -->
-        <text name="easyDevControls_placeablesHeader" text="Umístitelné"/>
+        <text name="easyDevControls_placeablesHeader" text="Produkce / umístitelné objekty"/>
 
         <text name="easyDevControls_productionPointTitle" text="Produkční bod"/>
         <text name="easyDevControls_npcOwned" text="Vlastněno NPC"/>
@@ -551,7 +551,7 @@ Kategorie:
   3. Spouštění aktuálního produkčního řetězce
   4. Jednotlivá ID
 
-Vlastník sady:
+Nastavit vlastníka:
   - Nastaví aktuálního vlastníka.
 
 Nastavit stav:
@@ -569,7 +569,7 @@ Výstupní režim:
         <text name="easyDevControls_showPlacementCollisionsHelp" text="Zobrazí kolize pro umístitelné objekty a vyrovnání terénu."/>
         <text name="easyDevControls_removeAllPlaceablesHelp" text="Odstraní všechny standardní vyměnitelná umístitelné objekty z mapy."/>
         <text name="easyDevControls_removeAllMapPlaceablesHelp" text="Odstraní z mapy všechny umístitelné objekty vázané na mapu včetně prodejních a nákupních bodů."/>
-        <text name="easyDevControls_reloadPlaceableHelp" text="Znovu načte I3D a XML nejbližšího umístění v dosahu 30 metrů od přehrávače."/>
+        <text name="easyDevControls_reloadPlaceableHelp" text="Znovu načte I3D a XML nejbližšího umístění v dosahu 30 metrů od hráče."/>
         <text name="easyDevControls_reloadAllPlaceablesHelp" text="Znovu načte I3D a XML všech umístitelných objektů na mapě."/>
 
         <!-- Rámec polí XML -->
@@ -593,8 +593,8 @@ Výstupní režim:
         <text name="easyDevControls_groundTypeTitle" text="Typ půdy"/>
         <text name="easyDevControls_angleTitle" text="Úhel"/>
         <text name="easyDevControls_removeFoliageTitle" text="Odstranit listy"/>
-        <text name="easyDevControls_vineSetStateTitle" text="Nastavit stav Vinice"/>
-        <text name="easyDevControls_vineUpdateVisualsTitle" text="Aktualizuje vzhled vinice"/>
+        <text name="easyDevControls_vineSetStateTitle" text="Nastavit stav vinic"/>
+        <text name="easyDevControls_vineUpdateVisualsTitle" text="Aktualizovat vzhled vinic"/>
         <text name="easyDevControls_advanceGrowthTitle" text="Pokročilý růst"/>
         <text name="easyDevControls_setGrowthPeriodTitle" text="Nastavit období růstu"/>
         <text name="easyDevControls_farmlandTitle" text="Zemědělská půda"/>
@@ -648,8 +648,8 @@ Chcete změnit nastavení na 'Ne', aby bylo možné tuto akci provést?"/>
         <text name="easyDevControls_setFarmlandOwnerHelp" text="Umožňuje změnit vlastnictví zemědělské půdy na základě 'ID farmy' nebo 'čísla pole'." revision="fs25"/> <!-- TO_DO: Remove ( or 'Field Number') -->
         <text name="easyDevControls_refreshFieldOverlayHelp" text="Vynutí obnovení dat překryvných polí zobrazených na mapě."/>
         <text name="easyDevControls_debugFieldStatusHelp" text="Zobrazí všechna data o stavu pole v daném okruhu."/>
-        <text name="easyDevControls_vineSystemDebugHelp" text="Přepne zobrazení ladění systému vine."/>
-        <text name="easyDevControls_stoneSystemDebugHelp" text="Přepne zobrazení ladění kamenného systému."/>
+        <text name="easyDevControls_vineSystemDebugHelp" text="Přepne zobrazení ladění systému vinic."/>
+        <text name="easyDevControls_stoneSystemDebugHelp" text="Přepne zobrazení ladění systému kamenů."/>
 
         <!-- Environment Frame XML -->
         <text name="easyDevControls_environmentHeader" text="Prostředí"/>
@@ -674,7 +674,7 @@ Chcete změnit nastavení na 'Ne', aby bylo možné tuto akci provést?"/>
         <text name="easyDevControls_setTimeInfo" text="Čas pokročil do: %s | %s"/>
         <text name="easyDevControls_reloadedEnvironmentDataInfo" text="Znovu načtena kompletní data prostředí z XML '%s'"/>
         <text name="easyDevControls_reloadedWeatherDataInfo" text="Znovu načtena data počasí z XML '%s'"/>
-        <text name="easyDevControls_removeTireTracksInfo" text="Odstraněny všechny stopy pneumatik v okruhu %s kolem přehrávače"/>
+        <text name="easyDevControls_removeTireTracksInfo" text="Odstraněny všechny stopy pneumatik v okruhu %s kolem hráče"/>
         <text name="easyDevControls_removeAllTireTracksInfo" text="Odstraněny všechny stopy pneumatik z mapy"/>
         <text name="easyDevControls_weatherDebugInfo" text="Ladění podle počasí je nyní %s"/>
         <text name="easyDevControls_seasonalShaderDebugInfo" text="Sezónní ladění shaderů je nyní %s"/>
@@ -703,7 +703,7 @@ POZNÁMKA: Během tohoto procesu nejsou volány žádné změny aktualizací a n
         <text name="easyDevControls_addSnowHelp" text="Přidá na mapu jednu vrstvu sněhu."/>
         <text name="easyDevControls_setSnowHelp" text="Nastaví danou úroveň sněhu. Rozsah: -4 > 0,5"/>
         <text name="easyDevControls_removeSnowHelp" text="Odstraní z mapy veškerý přízemní sníh."/>
-        <text name="easyDevControls_addSaltHelp" text="Přidá sůl v daném okruhu kolem přehrávače."/>
+        <text name="easyDevControls_addSaltHelp" text="Přidá sůl v daném okruhu kolem hráče."/>
 
         <!-- XML ​​rámce oprávnění -->
         <text name="easyDevControls_permissionsHeader" text="Oprávnění"/>
@@ -719,16 +719,16 @@ POZNÁMKA: Během tohoto procesu nejsou volány žádné změny aktualizací a n
 
         <text name="easyDevControls_aboutInfo" text="Easy Development Controls je navržen jako testovací nástroj pro moddery, mappery a tvůrce obsahu. Může také pomoci s nastavením hry nebo jakkoli chcete hru hrát.
 
-Zahrnuje některé funkce, které jsou již dostupné prostřednictvím příkazů herní konzole, ale nyní jsou snadno dostupné, a také přidává mnoho nových funkcí.
+Zahrnuje některé funkce, které jsou již dostupné prostřednictvím příkazů herní konzole, ale nyní jsou snadno dostupné a také přidává mnoho nových funkcí.
 
-Většina funkcí podporuje použití ve hře pro více hráčů a lze také upravit úrovně oprávnění pro některé příkazy. To nyní zahrnuje také existující příkazy konzoly, které dříve fungovaly pouze pro hostitele.
+Většina funkcí podporuje použití ve hře pro více hráčů a lze také upravit úrovně oprávnění pro některé příkazy. To nyní zahrnuje také existující příkazy konzole, které dříve fungovaly pouze pro hostitele.
 
 Dále byly přidány některé funkce kvality života.
 
  - Teleport: Rychle pohybujte sebou nebo vozidly po mapě výběrem místa na mapě, podle čísla pole nebo souřadnic x/z.
  - Otočení vozidel: Umožňuje uživateli snadno opravit svislou rotaci vozidla.
- - Super síla: Zvyšuje nosnost hráče a dosah vyzvednutí.
- - Viditelnost Hud: Zobrazí a skryje celý HUD, můžete také aktivovat vazbu kláves pro rychlejší přístup.
+ - Super síla: Zvyšuje nosnost hráče a dosah zvednutí.
+ - Viditelnost HUD: Zobrazí a skryje celý HUD, můžete také aktivovat vazbu kláves pro rychlejší přístup.
  - Zobrazit umístění balíků: Zobrazí na mapě všechny balíky vlastněné farmou.
  - Zobrazit umístění palet: Zobrazí na mapě všechny palety vlastněné farmou.
  - Posunout růst: Posune všechny plodiny do další fáze růstu.
