@@ -26,89 +26,126 @@
 
     <texts>
         <!-- Inputs (FS25) -->
-        <text name="input_EDC_SUPER_STRENGTH" text="Toggle super strength" revision="fs25"/>
+        <text name="input_EDC_SUPER_STRENGTH" text="Super forza" revision="fs25"/>
 
         <!-- First Load Info (FS25) -->
-        <text name="easyDevControls_firstLoadInfo" text="Don't know how to do something?
-Check the Help section in the Easy Development Controls menu.
+        <text name="easyDevControls_firstLoadInfo" text="Non sapete come fare qualcosa?
+Consultate la sezione Aiuto nel menu Controlli sviluppo facile.
 
-All input bindings can be configured via the In-Game menu controls screen." revision="fs25"/>
+Tutti i binding di input possono essere configurati tramite la schermata dei controlli del menu In-Game." revision="fs25"/>
 
         <!-- Misc (FS25) -->
-        <text name="easyDevControls_resetPageSuccess" text="Page commands have been reset..." revision="fs25"/>
+        <text name="easyDevControls_resetPageSuccess" text="I comandi di pagina sono stati ripristinati..." revision="fs25"/>
         <text name="easyDevControls_squareMeterShort" text="m²" revision="fs25"/>
-        <text name="easyDevControls_typeTree" text="tree" revision="fs25"/>
-        <text name="easyDevControls_typeTrees" text="trees" revision="fs25"/>
-        <text name="easyDevControls_placeholderEnterAmount" text="Enter Amount" revision="fs25"/>
-        <text name="easyDevControls_placeholderEnterCoordinates" text="Enter Coordinates" revision="fs25"/>
-        <text name="easyDevControls_decoration" text="Decoration" revision="fs25"/>
-        <text name="easyDevControls_dense" text="Dense" revision="fs25"/>
-        <text name="easyDevControls_ridgeSown" text="Ridge Sown" revision="fs25"/>
-        <text name="easyDevControls_currentValue" text="Current: %s" revision="fs25"/>
-        <text name="easyDevControls_noTrigger" text="No Trigger" revision="fs25"/>
-        <text name="easyDevControls_verbose" text="Verbose" revision="fs25"/>
-        <text name="easyDevControls_blocked" text="Blocked" revision="fs25"/>
-        <text name="easyDevControls_weatherTypePartiallyCloudy" text="Partially Cloudy" revision="fs25"/>
-        <text name="easyDevControls_weatherTypeHail" text="Hail" revision="fs25"/>
-        <text name="easyDevControls_weatherTypeTwister" text="Twister" revision="fs25"/>
-        <text name="easyDevControls_weatherTypeThunder" text="Thunder" revision="fs25"/>
+        <text name="easyDevControls_typeTree" text="abero" revision="fs25"/>
+        <text name="easyDevControls_typeTrees" text="aberi" revision="fs25"/>
+        <text name="easyDevControls_placeholderEnterAmount" text="Inserire importo" revision="fs25"/>
+        <text name="easyDevControls_placeholderEnterCoordinates" text="Inserire le coordinate" revision="fs25"/>
+        <text name="easyDevControls_decoration" text="Decorazione" revision="fs25"/>
+        <text name="easyDevControls_dense" text="Denso" revision="fs25"/>
+        <text name="easyDevControls_ridgeSown" text="Semina su baulatura" revision="fs25"/>
+        <text name="easyDevControls_currentValue" text="Attuale: %s" revision="fs25"/>
+        <text name="easyDevControls_noTrigger" text="Nessun trigger" revision="fs25"/>
+        <text name="easyDevControls_verbose" text="Log dettagliato" revision="fs25"/>
+        <text name="easyDevControls_blocked" text="Bloccato" revision="fs25"/>
+        <text name="easyDevControls_weatherTypePartiallyCloudy" text="Parzialmente nuvoloso" revision="fs25"/>
+        <text name="easyDevControls_weatherTypeHail" text="Grandine" revision="fs25"/>
+        <text name="easyDevControls_weatherTypeTwister" text="Voltafieno" revision="fs25"/>     
+        <text name="easyDevControls_weatherTypeThunder" text="Temporale" revision="fs25"/>
 
         <!-- General Frame (FS25) -->
-        <text name="easyDevControls_setFovCurrentAngleInfo" text="Current: %d°" revision="fs25"/>
+        <text name="easyDevControls_setFovCurrentAngleInfo" text="Attuale: %d°" revision="fs25"/>
 
         <!-- Player Frame (FS25) -->
-        <text name="easyDevControls_superStrengthKeyTitle" text="Super Strength Input" revision="fs25"/>
-        <text name="easyDevControls_superStrengthKeyInfo" text="Super Strength input (%s) %s" revision="fs25"/>
-        <text name="easyDevControls_superStrengthKeyHelp" text="Enables / Disables the Super Strength input binding." revision="fs25"/>
-        <text name="easyDevControls_jumpDelayTitle" text="Jump Delay" revision="fs25"/>
-        <text name="easyDevControls_jumpDelayInfo" text="Jump delay state: %s" revision="fs25"/>
-        <text name="easyDevControls_jumpDelayHelp" text="Sets player jump delay in seconds." revision="fs25"/>
+        <text name="easyDevControls_superStrengthKeyTitle" text="Tasto Super Forza" revision="fs25"/>
+        <text name="easyDevControls_superStrengthKeyInfo" text="Input Super Forza (%s) %s" revision="fs25"/>
+        <text name="easyDevControls_superStrengthKeyHelp" text="Attiva / Disattiva l'associazione tasto della Super Forza." revision="fs25"/>
+        <text name="easyDevControls_jumpDelayTitle" text="Ritardo Salto" revision="fs25"/>
+        <text name="easyDevControls_jumpDelayInfo" text="Stato ritardo salto: %s" revision="fs25"/>
+        <text name="easyDevControls_jumpDelayHelp" text="Imposta il ritardo del salto del giocatore in secondi." revision="fs25"/>
         <text name="easyDevControls_noClipTitle" text="No Clip" revision="fs25"/>
-        <text name="easyDevControls_noClipHelp" text="Disables player collisions." revision="fs25"/>
-        <text name="easyDevControls_playerDebugInitialisationTitle" text="Debug Initialisation" revision="fs25"/>
-        <text name="easyDevControls_playerDebugHandToolsTitle" text="Debug Hand Tools" revision="fs25"/>
-        <text name="easyDevControls_playerDebugNetworkTitle" text="Debug Network" revision="fs25"/>
-        <text name="easyDevControls_playerDebugGraphicsTitle" text="Debug Graphics" revision="fs25"/>
-        <text name="easyDevControls_playerDebugStateTitle" text="Debug State" revision="fs25"/>
-        <text name="easyDevControls_playerDebugMovementTitle" text="Debug Movement" revision="fs25"/>
+        <text name="easyDevControls_noClipHelp" text="Disattiva le collisioni del giocatore." revision="fs25"/>
+        <text name="easyDevControls_playerDebugInitialisationTitle" text="Inizializzazione Debug" revision="fs25"/>
+        <text name="easyDevControls_playerDebugHandToolsTitle" text="Debug Attrezzi a Mano" revision="fs25"/>
+        <text name="easyDevControls_playerDebugNetworkTitle" text="Debug Rete" revision="fs25"/>
+        <text name="easyDevControls_playerDebugGraphicsTitle" text="Debug Grafica" revision="fs25"/>
+        <text name="easyDevControls_playerDebugStateTitle" text="Debug Stato" revision="fs25"/>
+        <text name="easyDevControls_playerDebugMovementTitle" text="Debug Movimento" revision="fs25"/>
         <text name="easyDevControls_playerDebugInputTitle" text="Debug Input" revision="fs25"/>
-        <text name="easyDevControls_playerDebugDisplayInfo" text="Player debug flag %s is now %s." revision="fs25"/>
-        <text name="easyDevControls_playerDebugDisplayHelp" text="Enables / Disables the %s debug flag." revision="fs25"/>
+        <text name="easyDevControls_playerDebugDisplayInfo" text="Flag di debug giocatore %s ora è %s." revision="fs25"/>
+        <text name="easyDevControls_playerDebugDisplayHelp" text="Attiva / Disattiva il flag di debug %s." revision="fs25"/>
 
-        <!-- Objects Frame (FS25) -->
-        <text name="easyDevControls_numObjectsHelp" text="Displays the number of %s on the map and any limits when applicable." revision="fs25"/>
-        <text name="easyDevControls_plantTreeTitle" text="Plant Tree" revision="fs25"/>
-        <text name="easyDevControls_plantTreeInfo" text="Tree has been planted." revision="fs25"/>
-        <text name="easyDevControls_plantTreeHelp" text="Plants the selected tree type in front of the player.  Warning: No collision checks are executed, make sure the area in front of the player is clear!" revision="fs25"/>
-        <text name="easyDevControls_growthStage" text="Growth Stage %d" revision="fs25"/>
-        <text name="easyDevControls_splitShapesTitle" text="Split Shapes" revision="fs25"/>
-        <text name="easyDevControls_removeAllSplitShapesTitle" text="Remove Split Shapes" revision="fs25"/>
-        <text name="easyDevControls_showCollisionsInfo" text="Enable debug view (F5) to render collision information." revision="fs25"/>
+<!-- Objects Frame (FS25) -->
+<text name="easyDevControls_numObjectsHelp" text="Mostra il numero di %s presenti sulla mappa e gli eventuali limiti." revision="fs25"/>
+<text name="easyDevControls_plantTreeTitle" text="Pianta Albero" revision="fs25"/>
+<text name="easyDevControls_plantTreeInfo" text="Albero piantato." revision="fs25"/>
+<text name="easyDevControls_plantTreeHelp" text="Pianta il tipo di albero selezionato davanti al giocatore.  Attenzione: non viene eseguito alcun controllo sulle collisioni, assicurati che l'area davanti al giocatore sia libera!" revision="fs25"/>
+<text name="easyDevControls_growthStage" text="Fase di crescita %d" revision="fs25"/>
+<text name="easyDevControls_splitShapesTitle" text="Dividi Oggetti" revision="fs25"/>
+<text name="easyDevControls_removeAllSplitShapesTitle" text="Rimuovi Oggetti Divisi" revision="fs25"/>
+<text name="easyDevControls_showCollisionsInfo" text="Abilita la vista debug (F5) per visualizzare le informazioni sulle collisioni." revision="fs25"/>
 
-        <!-- Vehicles Frame (FS25) -->
-        <text name="easyDevControls_vehicleWetness" text="Wetness" revision="fs25"/>
+<!-- Vehicles Frame (FS25) -->
+<text name="easyDevControls_vehicleWetness" text="Bagnato" revision="fs25"/>
 
-        <!-- Placeables Frame (FS25) -->
-        <text name="easyDevControls_tipToTriggerSuccess" text="Tipped %s to trigger." revision="fs25"/>
+<!-- Placeables Frame (FS25) -->
+<text name="easyDevControls_tipToTriggerSuccess" text="Scaricato %s nel trigger." revision="fs25"/>
 
-        <!-- Farmlands Frame (FS25) -->
-        <text name="easyDevControls_clearHeightTypesTitle" text="Clear Height Types" revision="fs25"/>
-        <text name="easyDevControls_setRiceFieldTitle" text="Set Rice Field" revision="fs25"/>
-        <text name="easyDevControls_setRiceFieldHelp" text="Allows the following changes to be made to the rice field in range." revision="fs25"/>
+<!-- Farmlands Frame (FS25) -->
+<text name="easyDevControls_clearHeightTypesTitle" text="Pulisci Tipi di Altezza" revision="fs25"/>
+<text name="easyDevControls_setRiceFieldTitle" text="Imposta Campo di Riso" revision="fs25"/>
+<text name="easyDevControls_setRiceFieldHelp" text="Consente le modifiche al campo di riso entro il raggio." revision="fs25"/>
 
-        <!-- Environment Frame (FS25) -->
-        <text name="easyDevControls_tireTrackDebugTitle" text="Tyre Track Debug" revision="fs25"/>
-        <text name="easyDevControls_tireTrackDebugHelp" text="Enables / Disables the tyre track debug mode with permanently active and coloured tracks." revision="fs25"/>
+<!-- Environment Frame (FS25) -->
+<text name="easyDevControls_tireTrackDebugTitle" text="Debug Tracce Pneumatici" revision="fs25"/>
+<text name="easyDevControls_tireTrackDebugHelp" text="Attiva / Disattiva la modalità debug delle tracce con segni colorati sempre visibili." revision="fs25"/>
 
         <!-- Permissions Frame (FS25) -->
-        <text name="easyDevControls_adminLogin" text="Log in as EDC admin" revision="fs25"/>
-        <text name="easyDevControls_adminLogout" text="Logout as EDC admin" revision="fs25"/>
-        <text name="easyDevControls_changePassword" text="Change EDC admin password" revision="fs25"/>
-        <text name="easyDevControls_passwordChanged" text="Password changed: %s" revision="fs25"/>
-        <text name="easyDevControls_passwordInvalid" text="Invalid password combination / characters, please try again." revision="fs25"/>
-        <text name="easyDevControls_loggedIn" text="Logged in: %s" revision="fs25"/>
-        <text name="easyDevControls_loggedOut" text="Logged out: %s" revision="fs25"/>
-		<text name="easyDevControls_singlePlayerOnly" text="Single Player Only" revision="fs25"/>
+        <text name="easyDevControls_adminLogin" text="Accedi come admin EDC" revision="fs25"/>
+        <text name="easyDevControls_adminLogout" text="Disconnetti admin EDC" revision="fs25"/>
+        <text name="easyDevControls_changePassword" text="Cambia password admin EDC" revision="fs25"/>
+        <text name="easyDevControls_passwordChanged" text="Password modificata: %s" revision="fs25"/>
+        <text name="easyDevControls_passwordInvalid" text="Combinazione o caratteri della password non validi, riprova." revision="fs25"/>
+        <text name="easyDevControls_loggedIn" text="Accesso effettuato: %s" revision="fs25"/>
+        <text name="easyDevControls_loggedOut" text="Disconnesso: %s" revision="fs25"/>
+        <text name="easyDevControls_singlePlayerOnly" text="Solo Giocatore Singolo" revision="fs25"/>
+        <text name="easyDevControls_playerDebugDisplayInfo" text="Flag di debug del giocatore %s ora è %s." revision="fs25"/>
+        <text name="easyDevControls_playerDebugDisplayHelp" text="Attiva / Disattiva il flag di debug %s." revision="fs25"/>
+
+        <!-- Objects Frame (FS25) -->
+        <text name="easyDevControls_numObjectsHelp" text="Mostra il numero di %s presenti sulla mappa e gli eventuali limiti." revision="fs25"/>
+        <text name="easyDevControls_plantTreeTitle" text="Pianta Albero" revision="fs25"/>
+        <text name="easyDevControls_plantTreeInfo" text="Albero piantato." revision="fs25"/>
+        <text name="easyDevControls_plantTreeHelp" text="Pianta il tipo di albero selezionato davanti al giocatore.  Attenzione: non viene eseguito alcun controllo sulle collisioni, assicurati che l'area davanti al giocatore sia libera!" revision="fs25"/>
+        <text name="easyDevControls_growthStage" text="Fase di crescita %d" revision="fs25"/>
+        <text name="easyDevControls_splitShapesTitle" text="Dividi Oggetti" revision="fs25"/>
+        <text name="easyDevControls_removeAllSplitShapesTitle" text="Rimuovi Oggetti Divisi" revision="fs25"/>
+        <text name="easyDevControls_showCollisionsInfo" text="Abilita la vista debug (F5) per visualizzare le informazioni sulle collisioni." revision="fs25"/>
+
+        <!-- Vehicles Frame (FS25) -->
+        <text name="easyDevControls_vehicleWetness" text="Bagnato" revision="fs25"/>
+
+        <!-- Placeables Frame (FS25) -->
+        <text name="easyDevControls_tipToTriggerSuccess" text="Scaricato %s nel trigger." revision="fs25"/>
+
+        <!-- Farmlands Frame (FS25) -->
+        <text name="easyDevControls_clearHeightTypesTitle" text="Pulisci Tipi di Altezza" revision="fs25"/>
+        <text name="easyDevControls_setRiceFieldTitle" text="Imposta Campo di Riso" revision="fs25"/>
+        <text name="easyDevControls_setRiceFieldHelp" text="Consente le modifiche al campo di riso entro il raggio." revision="fs25"/>
+
+        <!-- Environment Frame (FS25) -->
+        <text name="easyDevControls_tireTrackDebugTitle" text="Debug Tracce Pneumatici" revision="fs25"/>
+        <text name="easyDevControls_tireTrackDebugHelp" text="Attiva / Disattiva la modalità debug delle tracce con segni colorati sempre visibili." revision="fs25"/>
+
+        <!-- Permissions Frame (FS25) -->
+        <text name="easyDevControls_adminLogin" text="Accedi come admin EDC" revision="fs25"/>
+        <text name="easyDevControls_adminLogout" text="Disconnetti admin EDC" revision="fs25"/>
+        <text name="easyDevControls_changePassword" text="Cambia password admin EDC" revision="fs25"/>
+        <text name="easyDevControls_passwordChanged" text="Password modificata: %s" revision="fs25"/>
+        <text name="easyDevControls_passwordInvalid" text="Combinazione o caratteri della password non validi, riprova." revision="fs25"/>
+        <text name="easyDevControls_loggedIn" text="Accesso effettuato: %s" revision="fs25"/>
+        <text name="easyDevControls_loggedOut" text="Disconnesso: %s" revision="fs25"/>
+        <text name="easyDevControls_singlePlayerOnly" text="Solo Giocatore Singolo" revision="fs25"/>
 
         <!-- Inputs -->
         <text name="input_EDC_SHOW_UI" text="Apri menu"/>
@@ -334,7 +371,7 @@ Per ottenere risultati ottimali, assicurarsi che il veicolo sia posizionato su u
         <text name="easyDevControls_flipVehiclesHelp" text="Tenta di correggere l'orientamento di un veicolo e l'orientamento di eventuali attrezzi collegati. Questa operazione è disponibile per i veicoli inseriti o quando si guarda un veicolo valido."/>
         <text name="easyDevControls_deleteObjectsKeyHelp" text="Alterna la disponibilità del binding di input 'Elimina oggetti'. Questo permette al giocatore di eliminare un albero, un tronco, un ceppo, una balla, un pallet o un veicolo che sta guardando. Quando è attiva, vengono visualizzate anche le informazioni su alberi e ceppi.
 
-Nota: la funzione è disponibile solo per gli 'Utenti Master/Amministratori!'"/>
+Nota: la funzione è disponibile solo per gli 'Amministratori!'"/>
         <text name="easyDevControls_setFOVAngleHelp" text="Imposta il 'Campo visivo' (FOV) della telecamera corrente. Usare '-1' o il 'Pulsante di ripristino' per riportare la telecamera al suo valore predefinito."/>
         <text name="easyDevControls_setQualityHelp" text="Regola le seguenti impostazioni per consentire screenshot di alta qualità o come richiesto."/>
         <text name="easyDevControls_extraTimescalesHelp" text="Alterna la disponibilità dei seguenti tempi extra: %s."/>
@@ -374,8 +411,8 @@ Nota: la funzione è disponibile solo per gli 'Utenti Master/Amministratori!'"/>
         <text name="easyDevControls_playerFsmStateJumpDebugInfo" text="Debug della macchina di stato del salto del giocatore %s"/>
 
         <!-- Player Frame Help -->
-        <text name="easyDevControls_superStrengthHelp" text="Toggles the super strength function and extends the players pickup range."/>
-        <text name="easyDevControls_jumpMultiplierHelp" text="Increases the jumping height of the player by adding the selected multiplier."/>
+        <text name="easyDevControls_superStrengthHelp" text="Attiva/Disattiva la funzione di super forza ed estende il raggio di raccolta del giocatore."/>
+        <text name="easyDevControls_jumpMultiplierHelp" text="Aumenta l’altezza del salto del giocatore applicando il moltiplicatore selezionato."/>
         <text name="easyDevControls_thirdPersonViewHelp" text="Alterna la visuale in terza persona del giocatore.
 Nota: questa modalità è progettata per le schermate e non tutte le funzioni del gioco, come ad esempio gli 'Strumenti manuali' funzionano correttamente quando sono abilitate."/> <!-- Translators: Space is intentional for easy reading -->
         <text name="easyDevControls_woodCuttingMarkerHelp" text="Alternates the visibility of the wood cutting indicator with the chainsaw."/>
