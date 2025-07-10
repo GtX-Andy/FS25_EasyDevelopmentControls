@@ -109,7 +109,7 @@
         <text name="easyDevControls_passwordInvalid" text="Неправильна комбінація / символи пароля, спробуйте ще раз." revision="fs25"/>
         <text name="easyDevControls_loggedIn" text="Увійшли в систему: %s" revision="fs25"/>
         <text name="easyDevControls_loggedOut" text="Вийшов з системи: %s" revision="fs25"/>
-		<text name="easyDevControls_singlePlayerOnly" text="Тільки для одного гравця" revision="fs25"/>
+        <text name="easyDevControls_singlePlayerOnly" text="Тільки для одного гравця" revision="fs25"/>
 
         <!-- Inputs -->
         <text name="input_EDC_SHOW_UI" text="Відкрити меню"/>
@@ -333,7 +333,7 @@
         <text name="easyDevControls_hudInputHelp" text="Дає змогу вмикати і вимикати HUD після натискання на клавішу «Відображення HUD»."/>
         <text name="easyDevControls_teleportHelp" text="Телепортувати гравця, керованого транспорту або транспорту в радіусі дії гравця в обрану точку на карті, на полі або в задану позицію x / z."/>
         <text name="easyDevControls_flipVehiclesHelp" text="Спроби виправити орієнтацію транспортного засобу та орієнтацію будь-яких підключених знарядь. Ця операція доступна для керованого транспорту або під час перегляду власного транспорту."/>
-        <text name="easyDevControls_deleteObjectsKeyHelp" text="Доступ до функції «Видалення об'єктів». Дозволяє гравцеві видалити: дерево, колоду, пень, тюк, піддон або транспорт, на який він дивиться. Інформація про дерева і пні також буде відображатися, при наведенні на них.
+        <text name="easyDevControls_deleteObjectsKeyHelp" text="Доступ до функції «Видалення об'єктів». Дозволяє гравцеві видалити: дерево, колоду, пень, тюк, піддон або транспорт, на який він дивиться.
 
 Примітка: Функція доступна тільки для «Майстер-користувачів/адміністраторів»!"/>
         <text name="easyDevControls_setFOVAngleHelp" text="Встановлює «Поле зору» поточної камери. Використовуйте «-1» або «Кнопку скидання», щоб повернути камери до значень за замовчуванням."/>

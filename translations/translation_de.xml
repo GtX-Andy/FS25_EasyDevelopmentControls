@@ -331,7 +331,9 @@ Besuchen Sie den Giants modHub-Downloadlink unten, um die neueste offizielle Ver
         <text name="easyDevControls_hudInputHelp" text="Schaltet die Tasten für die Hud Einstellung an oder aus"/>
         <text name="easyDevControls_teleportHelp" text="Spieler oder Fahrzeug zu einem bestimmten Punkt im Umkreis des Spielers teleportieren oder zu einer bestimmten Position auf der Map. Es können auch x/z Koordinaten genutzt werden"/>
         <text name="easyDevControls_flipVehiclesHelp" text="Umgefallenes Fahrzeug und Anbaugeräte aufrichten. Dies funktioniert wenn man im Fahrzeug ist oder das Fahrzeug im direkten "/>
-        <text name="easyDevControls_deleteObjectsKeyHelp" text="Die 'Objekte entfernen' Taste de oder aktivieren. Dies erlaubt dem Spieler Objekte zu entfernen die sich im direkten Blickfeld befinden. Diese Funktion kann nur von einem Admin genutzt werden!"/>
+        <text name="easyDevControls_deleteObjectsKeyHelp" text="Die 'Objekte entfernen' Taste de oder aktivieren. Dies erlaubt dem Spieler Objekte zu entfernen die sich im direkten Blickfeld befinden.
+
+Diese Funktion kann nur von einem Admin genutzt werden!"/>
         <text name="easyDevControls_setFOVAngleHelp" text="Stellt die'Field Of View' (FOV) für die aktive Kamera ein. Nutze '-1' oder 'den Reset Knopf' um auf Standard Wert zurückzusetzen."/>
         <text name="easyDevControls_setQualityHelp" text="Einstellungen für hochauflösende Bildschirmfotos"/>
         <text name="easyDevControls_extraTimescalesHelp" text="Schalte extra Zeiteinstellungen frei: %s."/>

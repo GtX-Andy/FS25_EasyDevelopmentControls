@@ -108,7 +108,7 @@ Všechny vstupní vazby lze nakonfigurovat prostřednictvím obrazovky ovládac�
         <text name="easyDevControls_passwordInvalid" text="Nesprávná kombinace hesel/znaků, zkuste to prosím znovu." revision="fs25"/>
         <text name="easyDevControls_loggedIn" text="Přihlášen: %s" revision="fs25"/>
         <text name="easyDevControls_loggedOut" text="Odhlášen: %s" revision="fs25"/>
-		<text name="easyDevControls_singlePlayerOnly" text="Pouze pro jednoho hráče" revision="fs25"/>
+        <text name="easyDevControls_singlePlayerOnly" text="Pouze pro jednoho hráče" revision="fs25"/>
 
         <!-- Inputs -->
         <text name="input_EDC_SHOW_UI" text="Otevřít nabídku"/>
@@ -332,7 +332,7 @@ Pro dosažení nejlepších výsledků se ujistěte, že je vozidlo umístěno n
         <text name="easyDevControls_hudInputHelp" text="Přepíná dostupnost vazby vstupu 'Toggle HUD'."/>
         <text name="easyDevControls_teleportHelp" text="Teleportujte hráče, zadaná vozidla nebo vozidlo v dosahu hráče do vybraného bodu na mapě, středu pole nebo na danou pozici x/z."/>
         <text name="easyDevControls_flipVehiclesHelp" text="Pokusy o správnou orientaci vozidla a orientaci jakéhokoli připojeného nářadí. Tato operace je dostupná pro zadaná vozidla nebo při pohledu na platné vozidlo."/>
-        <text name="easyDevControls_deleteObjectsKeyHelp" text="Přepíná dostupnost vstupní vazby 'Delete Objects'. To umožňuje hráči smazat strom, kládu, pařez, balík, paletu nebo vozidlo, které si prohlíží. Informace o stromech a pařezech se také zobrazí, když je aktivní.
+        <text name="easyDevControls_deleteObjectsKeyHelp" text="Přepíná dostupnost vstupní vazby 'Delete Objects'. To umožňuje hráči smazat strom, kládu, pařez, balík, paletu nebo vozidlo, které si prohlíží.
 
 Poznámka: Funkce je dostupná pouze pro 'Master Users / Admin'!"/>
         <text name="easyDevControls_setFOVAngleHelp" text="Nastaví 'Field Of View' (FOV) aktuální kamery. Pomocí '-1' nebo 'Reset Button' vrátíte kamery na výchozí hodnotu."/>

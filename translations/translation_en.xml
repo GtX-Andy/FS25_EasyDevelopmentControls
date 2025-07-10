@@ -332,7 +332,7 @@ Make sure vehicle is positioned on a flat plane that is parallel to x/z plane fo
         <text name="easyDevControls_hudInputHelp" text="Toggles the availability of the 'Toggle hud' input binding."/>
         <text name="easyDevControls_teleportHelp" text="Teleport the player, entered vehicles or a vehicle in range of the player to a selected map point, centre of a field or to a given x / z position."/>
         <text name="easyDevControls_flipVehiclesHelp" text="Attempts to correct orientation of a vehicle and the orientation of any connected implements. This operation is available for entered vehicles or when looking at a valid vehicle."/>
-        <text name="easyDevControls_deleteObjectsKeyHelp" text="Toggles the availability of the 'Delete Objects' input binding. This allows the player to delete a tree, log, stump, bale, pallet or vehicle that they are looking at. Tree and Stump information will also be displayed when active.
+        <text name="easyDevControls_deleteObjectsKeyHelp" text="Toggles the availability of the 'Delete Objects' input binding. This allows the player to delete a tree, log, stump, bale, pallet or vehicle that they are looking at.
 
 Note: Feature is only available to the 'Master Users / Admin'!"/>
         <text name="easyDevControls_setFOVAngleHelp" text="Sets the 'Field Of View' (FOV) of the current camera. Use '-1' or 'Reset Button' to return the cameras to its default value."/>

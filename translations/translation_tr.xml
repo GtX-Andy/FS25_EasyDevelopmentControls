@@ -332,7 +332,7 @@ En iyi sonuçlar için aracın x/z düzlemine paralel olan düz bir düzlemde ko
         <text name="easyDevControls_hudInputHelp" text="'Hud'u değiştir' giriş bağlamasının kullanılabilirliğini değiştirebilirsin."/>
         <text name="easyDevControls_teleportHelp" text="Işınlanma Oyuncu veya Oyuncunun içinde bulunduğu araçı istediği noktaya ışınlar. Bunun için tarla veya koordinat x / z girmeniz gerekecek. "/>
         <text name="easyDevControls_flipVehiclesHelp" text="Bir araç ile ilgili ve uyumlu şekilde düzenlemeler yapmak için kullanılır."/>
-        <text name="easyDevControls_deleteObjectsKeyHelp" text="Nesne silme ile neredeyse istediğiniz herşeyi silebilirsiniz.
+        <text name="easyDevControls_deleteObjectsKeyHelp" text="Nesne silme ile neredeyse istediğiniz herşeyi silebilirsiniz (Paletler, Balyalar, Kütükler, Kökler, Ağaç, Araçlar).
 
 Not: Özellik yalnızca 'Ana Erişim/Yönetici' tarafından kullanılabilir!"/>
         <text name="easyDevControls_setFOVAngleHelp" text="Kamera (FOV) ayarı. Eski haline dönmek içim '-1' veya 'Sıfırla Butonu' kullanılabilir."/>

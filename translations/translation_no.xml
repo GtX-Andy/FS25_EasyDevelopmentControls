@@ -108,7 +108,7 @@ All input bindings can be configured via the In-Game menu controls screen." revi
         <text name="easyDevControls_passwordInvalid" text="Invalid password combination / characters, please try again." revision="fs25"/>
         <text name="easyDevControls_loggedIn" text="Logged in: %s" revision="fs25"/>
         <text name="easyDevControls_loggedOut" text="Logged out: %s" revision="fs25"/>
-		<text name="easyDevControls_singlePlayerOnly" text="Single Player Only" revision="fs25"/>
+        <text name="easyDevControls_singlePlayerOnly" text="Single Player Only" revision="fs25"/>
 
         <!-- Inputs -->
         <text name="input_EDC_SHOW_UI" text="Åpne meny"/>
@@ -332,7 +332,7 @@ Sørg for at kjøretøyet er plassert på et flatt plan som er parallelt med x/z
         <text name="easyDevControls_hudInputHelp" text="Slår av på tilgjengeligheten av 'Slå på hud'-inndatatastene."/>
         <text name="easyDevControls_teleportHelp" text="Teleporter spilleren, kjøretøy du sitter i eller et kjøretøy innen rekkevidde av spilleren til et valgt kartpunkt, sentrum av et felt eller til en gitt x / z posisjon."/>
         <text name="easyDevControls_flipVehiclesHelp" text="Forsøk på å korrigere orienteringen til et kjøretøy og orienteringen til eventuelle tilkoblede redskaper. Denne operasjonen er tilgjengelig for kjøretøy du sitter i eller når du ser på et gyldig kjøretøy."/>
-        <text name="easyDevControls_deleteObjectsKeyHelp" text="Slår av på tilgjengeligheten av 'Slett objekt' inndatatasten. Dette lar spilleren slette et tre, tømmerstokk, stubbe, høyball, pall eller kjøretøy som de ser på. Tre og stubbeinformasjon vil også vises når den er aktiv.
+        <text name="easyDevControls_deleteObjectsKeyHelp" text="Slår av på tilgjengeligheten av 'Slett objekt' inndatatasten. Dette lar spilleren slette et tre, tømmerstokk, stubbe, høyball, pall eller kjøretøy som de ser på.
 
 Merk: Funksjonen er kun tilgjengelig for 'Hovedbrukere / Admin'!"/>
         <text name="easyDevControls_setFOVAngleHelp" text="Stiller inn 'Synsvinkel' (FOV) for gjeldende kamera. Bruk '-1' eller 'Tilbakestillingsknapp' for å returnere kameraene til standardverdien."/>

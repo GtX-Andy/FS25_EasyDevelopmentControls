@@ -109,7 +109,7 @@ Wszystkie skróty klawiszowe można skonfigurować za pomocą menu klawiszy w op
         <text name="easyDevControls_passwordInvalid" text="Nieprawidłowa kombinacja/znaki hasła, spróbuj ponownie." revision="fs25"/>
         <text name="easyDevControls_loggedIn" text="Zalogowany: %s" revision="fs25"/>
         <text name="easyDevControls_loggedOut" text="Wylogowany: %s" revision="fs25"/>
-		<text name="easyDevControls_singlePlayerOnly" text="Tylko tryb kariery" revision="fs25"/>
+        <text name="easyDevControls_singlePlayerOnly" text="Tylko tryb kariery" revision="fs25"/>
 
         <!-- Inputs -->
         <text name="input_EDC_SHOW_UI" text="Otwórz menu"/>
@@ -333,7 +333,7 @@ Upewnij się, że pojazd jest ustawiony na płaskiej płaszczyźnie, która jest
         <text name="easyDevControls_hudInputHelp" text="Przełącza możliwość użycia funkcji za pomocą klawisza 'Przełączanie HUDa'."/>
         <text name="easyDevControls_teleportHelp" text="Teleportuje gracza, prowadzone pojazdy lub pojazd w zasięgu gracza do wybranego punktu na mapie, środka pola lub do określonej pozycji X/Z."/>
         <text name="easyDevControls_flipVehiclesHelp" text="Próbuje skorygować orientację pojazdu i orientację wszelkich podłączonych narzędzi. Ta operacja jest dostępna dla prowadzonych pojazdów lub podczas patrzenia na odpowiedni pojazd."/>
-        <text name="easyDevControls_deleteObjectsKeyHelp" text="Przełącza możliwość użycia funkcji za pomocą klawisza 'Usuwanie obiektów'. Pozwala to graczowi usunąć drzewo, kłodę, pień, belę, paletę lub pojazd, na który patrzy. Informacje o drzewie i pniach będą również wyświetlane, gdy są aktywne.
+        <text name="easyDevControls_deleteObjectsKeyHelp" text="Przełącza możliwość użycia funkcji za pomocą klawisza 'Usuwanie obiektów'. Pozwala to graczowi usunąć drzewo, kłodę, pień, belę, paletę lub pojazd, na który patrzy.
 
 INFO: Funkcja jest dostępna tylko dla 'Hosta/Admina'!"/>
         <text name="easyDevControls_setFOVAngleHelp" text="Ustawia pole widzenia (FOV) bieżącej kamery. Użyj '-1' lub przycisku 'Resetuj', aby przywrócić domyślną wartość."/>

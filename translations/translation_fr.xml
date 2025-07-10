@@ -109,7 +109,7 @@ Toutes les affectations de touches peuvent être configurées via l'écran de co
         <text name="easyDevControls_passwordInvalid" text="Combinaison de caractères invalide pour le mot de passe, veuillez réessayer." revision="fs25"/>
         <text name="easyDevControls_loggedIn" text="Connecté: %s" revision="fs25"/>
         <text name="easyDevControls_loggedOut" text="Déconnecté: %s" revision="fs25"/>
-		<text name="easyDevControls_singlePlayerOnly" text="Uniquement joueur solo" revision="fs25"/>
+        <text name="easyDevControls_singlePlayerOnly" text="Uniquement joueur solo" revision="fs25"/>
 
         <!-- Inputs -->
         <text name="input_EDC_SHOW_UI" text="Ouvrir le menu"/>
@@ -333,7 +333,7 @@ Pour obtenir de meilleurs résultats, assurez-vous de le positionner sur un terr
         <text name="easyDevControls_hudInputHelp" text="Permet d'activer le raccourci clavier d'affichage ou de masquage de l'interface ATH."/>
         <text name="easyDevControls_teleportHelp" text="Téléporte le personnage, le véhicule actif ou tous les véhicules à portée du personnage sur un point sélectionné sur la carte, le centre du champ choisi ou les coordonnées x / z."/>
         <text name="easyDevControls_flipVehiclesHelp" text="Essaye de redresser le véhicule ainsi que ses outils attelés en corrigeant leur orientation. Utilisable dans le véhicule actif ou un véhicule valide ciblé par le personnage."/>
-        <text name="easyDevControls_deleteObjectsKeyHelp" text="Permet d'activer le raccourci clavier de suppression des objets. Cela permet de supprimer tout type d'objet visé par le personnage (arbre, grume, souche, botte, palette ou véhicule). Des informations sur l'arbre et la souche apparaitront lors de l'utilisation du raccourci.
+        <text name="easyDevControls_deleteObjectsKeyHelp" text="Permet d'activer le raccourci clavier de suppression des objets. Cela permet de supprimer tout type d'objet visé par le personnage (arbre, grume, souche, botte, palette ou véhicule).
 
 Note: Fonctionnalité uniquement disponible en étant administrateur de la partie !"/>
         <text name="easyDevControls_setFOVAngleHelp" text="Défini le champ de vision (FOV) de la caméra active. Utilisez '-1' ou le bouton 'Réinitialiser' pour rétablir les valeurs par défaut de la caméra."/>

@@ -108,7 +108,7 @@ All input bindings can be configured via the In-Game menu controls screen." revi
         <text name="easyDevControls_passwordInvalid" text="Invalid password combination / characters, please try again." revision="fs25"/>
         <text name="easyDevControls_loggedIn" text="Logged in: %s" revision="fs25"/>
         <text name="easyDevControls_loggedOut" text="Logged out: %s" revision="fs25"/>
-		<text name="easyDevControls_singlePlayerOnly" text="Single Player Only" revision="fs25"/>
+        <text name="easyDevControls_singlePlayerOnly" text="Single Player Only" revision="fs25"/>
 
         <!-- Inputs -->
         <text name="input_EDC_SHOW_UI" text="Abrir Menú"/>
@@ -332,7 +332,7 @@ Asegúrese de que el vehículo esté colocado en una superficie lo más plana po
         <text name="easyDevControls_hudInputHelp" text="Activa o Desactiva la habilidad de 'Alternar el HUD' con teclas predefinidas."/>
         <text name="easyDevControls_teleportHelp" text="Teletransporta al jugador, vehículos conducidos o vehículos en un rango del jugador al punto del mapa seleccionado, al centro de un campo o a la posición X/Z proporcionada."/>
         <text name="easyDevControls_flipVehiclesHelp" text="Intenta corregir la orientación de un vehículo y su implemente si lo lleva. Esta operación esta disponible para vehículos conducidos o un vehículo válido localizado."/>
-        <text name="easyDevControls_deleteObjectsKeyHelp" text="Activa la posibilidad de fijar una tecla para 'Borrar Objetos'. Esto permite al jugador borrar árboles, troncos, tocones, pacas, palets o vehiculos que se estén mirando. La información de árboles y tocones también se mostrará cuando esté activa.
+        <text name="easyDevControls_deleteObjectsKeyHelp" text="Activa la posibilidad de fijar una tecla para 'Borrar Objetos'. Esto permite al jugador borrar árboles, troncos, tocones, pacas, palets o vehiculos que se estén mirando.
 
 ¡Nota: En Multijugador, característica disponible solo para 'Administrador o Con Derechos'!"/>
         <text name="easyDevControls_setFOVAngleHelp" text="Fija el 'Campo de Visión' (FOV) de la cámara actual. Usa '-1' o 'Botón Reset' para reestablecer el valor fijado en tus ajustes."/>
