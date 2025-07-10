@@ -50,7 +50,7 @@ Tutti i binding di input possono essere configurati tramite la schermata dei con
         <text name="easyDevControls_blocked" text="Bloccato" revision="fs25"/>
         <text name="easyDevControls_weatherTypePartiallyCloudy" text="Parzialmente nuvoloso" revision="fs25"/>
         <text name="easyDevControls_weatherTypeHail" text="Grandine" revision="fs25"/>
-        <text name="easyDevControls_weatherTypeTwister" text="Voltafieno" revision="fs25"/>     
+        <text name="easyDevControls_weatherTypeTwister" text="Voltafieno" revision="fs25"/>
         <text name="easyDevControls_weatherTypeThunder" text="Temporale" revision="fs25"/>
 
         <!-- General Frame (FS25) -->
@@ -73,43 +73,6 @@ Tutti i binding di input possono essere configurati tramite la schermata dei con
         <text name="easyDevControls_playerDebugMovementTitle" text="Debug Movimento" revision="fs25"/>
         <text name="easyDevControls_playerDebugInputTitle" text="Debug Input" revision="fs25"/>
         <text name="easyDevControls_playerDebugDisplayInfo" text="Flag di debug giocatore %s ora è %s." revision="fs25"/>
-        <text name="easyDevControls_playerDebugDisplayHelp" text="Attiva / Disattiva il flag di debug %s." revision="fs25"/>
-
-<!-- Objects Frame (FS25) -->
-<text name="easyDevControls_numObjectsHelp" text="Mostra il numero di %s presenti sulla mappa e gli eventuali limiti." revision="fs25"/>
-<text name="easyDevControls_plantTreeTitle" text="Pianta Albero" revision="fs25"/>
-<text name="easyDevControls_plantTreeInfo" text="Albero piantato." revision="fs25"/>
-<text name="easyDevControls_plantTreeHelp" text="Pianta il tipo di albero selezionato davanti al giocatore.  Attenzione: non viene eseguito alcun controllo sulle collisioni, assicurati che l'area davanti al giocatore sia libera!" revision="fs25"/>
-<text name="easyDevControls_growthStage" text="Fase di crescita %d" revision="fs25"/>
-<text name="easyDevControls_splitShapesTitle" text="Dividi Oggetti" revision="fs25"/>
-<text name="easyDevControls_removeAllSplitShapesTitle" text="Rimuovi Oggetti Divisi" revision="fs25"/>
-<text name="easyDevControls_showCollisionsInfo" text="Abilita la vista debug (F5) per visualizzare le informazioni sulle collisioni." revision="fs25"/>
-
-<!-- Vehicles Frame (FS25) -->
-<text name="easyDevControls_vehicleWetness" text="Bagnato" revision="fs25"/>
-
-<!-- Placeables Frame (FS25) -->
-<text name="easyDevControls_tipToTriggerSuccess" text="Scaricato %s nel trigger." revision="fs25"/>
-
-<!-- Farmlands Frame (FS25) -->
-<text name="easyDevControls_clearHeightTypesTitle" text="Pulisci Tipi di Altezza" revision="fs25"/>
-<text name="easyDevControls_setRiceFieldTitle" text="Imposta Campo di Riso" revision="fs25"/>
-<text name="easyDevControls_setRiceFieldHelp" text="Consente le modifiche al campo di riso entro il raggio." revision="fs25"/>
-
-<!-- Environment Frame (FS25) -->
-<text name="easyDevControls_tireTrackDebugTitle" text="Debug Tracce Pneumatici" revision="fs25"/>
-<text name="easyDevControls_tireTrackDebugHelp" text="Attiva / Disattiva la modalità debug delle tracce con segni colorati sempre visibili." revision="fs25"/>
-
-        <!-- Permissions Frame (FS25) -->
-        <text name="easyDevControls_adminLogin" text="Accedi come admin EDC" revision="fs25"/>
-        <text name="easyDevControls_adminLogout" text="Disconnetti admin EDC" revision="fs25"/>
-        <text name="easyDevControls_changePassword" text="Cambia password admin EDC" revision="fs25"/>
-        <text name="easyDevControls_passwordChanged" text="Password modificata: %s" revision="fs25"/>
-        <text name="easyDevControls_passwordInvalid" text="Combinazione o caratteri della password non validi, riprova." revision="fs25"/>
-        <text name="easyDevControls_loggedIn" text="Accesso effettuato: %s" revision="fs25"/>
-        <text name="easyDevControls_loggedOut" text="Disconnesso: %s" revision="fs25"/>
-        <text name="easyDevControls_singlePlayerOnly" text="Solo Giocatore Singolo" revision="fs25"/>
-        <text name="easyDevControls_playerDebugDisplayInfo" text="Flag di debug del giocatore %s ora è %s." revision="fs25"/>
         <text name="easyDevControls_playerDebugDisplayHelp" text="Attiva / Disattiva il flag di debug %s." revision="fs25"/>
 
         <!-- Objects Frame (FS25) -->
@@ -333,7 +296,7 @@ Per ottenere risultati ottimali, assicurarsi che il veicolo sia posizionato su u
         <text name="easyDevControls_stopTimeTitle" text="Ferma il tempo"/>
         <text name="easyDevControls_showCollectablesTitle" text="Mostra di oggetti da collezione"/>
         <text name="easyDevControls_clearI3DCacheTitle" text="Cancellare la cache I3D"/>
-        <text name="easyDevControls_reloadStoreItemsTitle" text="Reload Store Items"/>
+        <text name="easyDevControls_reloadStoreItemsTitle" text="Ricarica gli oggetti del negozio"/>
 
         <!-- General Frame Info -->
         <text name="easyDevControls_addMoneyInfo" text="Aggiunto %s al conto fattoria."/>
@@ -351,13 +314,13 @@ Per ottenere risultati ottimali, assicurarsi che il veicolo sia posizionato su u
         <text name="easyDevControls_teleportVehiclesInfo" text="Spostati %s veicoli alle coordinate %s, %s con successo."/>
         <text name="easyDevControls_flipVehiclesInfo" text="Tentativo di correggere l'orientamento del veicolo e di qualsiasi attrezzo collegato."/>
         <text name="easyDevControls_deleteObjectsKeyInfo" text="Cancellare la chiave degli oggetti (%s) %s"/>
-        <text name="easyDevControls_setFovAngleInfo" text="Camera FOV updated to %d°"/>
+        <text name="easyDevControls_setFovAngleInfo" text="FOV della telecamera aggiornato a %d°"/>
         <text name="easyDevControls_resetFovAngleInfo" text="Campo visivo ripristinato al valore predefinito %d°."/>
         <text name="easyDevControls_setQualityInfo" text="Set di qualità %s."/>
         <text name="easyDevControls_extraTimescalesInfo" text="Tempo extra %s"/>
         <text name="easyDevControls_stopTimeInfo" text="I tempi sono stati impostati a zero."/>
         <text name="easyDevControls_clearI3DCacheInfo" text="Eliminati tutti i file i3d condivisi."/>
-        <text name="easyDevControls_reloadStoreItemsInfo" text="Successfully reloaded %s store items."/>
+        <text name="easyDevControls_reloadStoreItemsInfo" text="Hai ricaricato con successo %s oggetti del negozio."/>
 
         <!-- General Frame Help -->
         <text name="easyDevControls_addMoneyHelp" text="Aggiunge denaro al saldo del conto agricolo della fattoria."/>
@@ -378,7 +341,7 @@ Nota: la funzione è disponibile solo per gli 'Amministratori!'"/>
         <text name="easyDevControls_stopTimeHelp" text="Imposta la scala dei tempi corrente a zero."/>
         <text name="easyDevControls_showCollectablesHelp" text="Regola la percentuale di visualizzazione dei collezionabili sulla mappa. Nota: attualmente solo per l'uso 'Giocatore singolo'."/>
         <text name="easyDevControls_clearI3DCacheHelp" text="Rimuove tutti i file i3d memorizzati nella cache per garantire il caricamento delle versioni più recenti dal disco. Quando non sono disponibili file i3d condivisi, questa funzione viene disattivata."/>
-        <text name="easyDevControls_reloadStoreItemsHelp" text="Reloads all store items data including store configuration options."/>
+        <text name="easyDevControls_reloadStoreItemsHelp" text="Ricarica tutti i dati degli articoli del negozio, incluse le opzioni di configurazione del negozio."/>
 
         <!-- Player Frame XML -->
         <text name="easyDevControls_playerHeader" text="Giocatore"/>
